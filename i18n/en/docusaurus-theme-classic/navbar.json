@@ -1,0 +1,30 @@
+{
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Language",
+    "description": "The label for the navbar mobile versions dropdown"
+  },
+  "title": {
+    "message": "UniCMMS",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "UniCMMS Help Center",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "Documentation",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Open App": {
+    "message": "Open App",
+    "description": "Navbar item with label Open App"
+  }
+}

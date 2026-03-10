@@ -1,0 +1,107 @@
+.searchButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(70, 190, 184, 0.08);
+  border: 1px solid rgba(70, 190, 184, 0.2);
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: var(--ifm-navbar-link-color);
+  font-size: 0.85rem;
+  font-family: var(--ifm-font-family-base);
+  transition: all 0.2s ease;
+}
+
+.searchButton:hover {
+  background: rgba(70, 190, 184, 0.15);
+  border-color: rgba(70, 190, 184, 0.4);
+}
+
+.searchPlaceholder {
+  color: #94a3b8;
+}
+
+.searchKbd {
+  background: rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+[data-theme='dark'] .searchKbd {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(22, 6, 71, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.modal {
+  background: var(--ifm-background-color);
+  border-radius: 16px;
+  box-shadow: 0 24px 64px rgba(22, 6, 71, 0.3);
+  width: 100%;
+  max-width: 560px;
+  overflow: hidden;
+  border: 1px solid rgba(70, 190, 184, 0.2);
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(70, 190, 184, 0.1);
+}
+
+.searchIcon {
+  color: #94a3b8;
+  flex-shrink: 0;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  color: var(--ifm-font-color-base);
+  font-family: var(--ifm-font-family-base);
+}
+
+.clearButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #94a3b8;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.clearButton:hover {
+  color: var(--ifm-font-color-base);
+}
+
+.searchHints {
+  display: flex;
+  gap: 16px;
+  padding: 12px 20px;
+  font-size: 0.78rem;
+  color: #94a3b8;
+}

@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.mainSidebar.category.Maintenance": {
+    "message": "Maintenance",
+    "description": "The label for category Maintenance in sidebar mainSidebar"
+  },
+  "sidebar.mainSidebar.category.Meters": {
+    "message": "Meters",
+    "description": "The label for category Meters in sidebar mainSidebar"
+  },
+  "sidebar.mainSidebar.doc.About UniCMMS": {
+    "message": "About UniCMMS",
+    "description": "The label for the doc item About UniCMMS in sidebar mainSidebar, linking to the doc intro"
+  },
+  "sidebar.mainSidebar.doc.Triggers": {
+    "message": "Triggers",
+    "description": "The label for the doc item Triggers in sidebar mainSidebar, linking to the doc maintenance/triggers"
+  },
+  "sidebar.mainSidebar.doc.Procedure Templates": {
+    "message": "Procedure Templates",
+    "description": "The label for the doc item Procedure Templates in sidebar mainSidebar, linking to the doc maintenance/procedure-templates"
+  },
+  "sidebar.mainSidebar.doc.Work Orders": {
+    "message": "Work Orders",
+    "description": "The label for the doc item Work Orders in sidebar mainSidebar, linking to the doc maintenance/work-orders"
+  },
+  "sidebar.mainSidebar.doc.Work Requests": {
+    "message": "Work Requests",
+    "description": "The label for the doc item Work Requests in sidebar mainSidebar, linking to the doc maintenance/work-requests"
+  },
+  "sidebar.mainSidebar.doc.Regular Maintenance (PM)": {
+    "message": "Regular Maintenance (PM)",
+    "description": "The label for the doc item Regular Maintenance (PM) in sidebar mainSidebar, linking to the doc maintenance/regular-maintenance"
+  }
+}

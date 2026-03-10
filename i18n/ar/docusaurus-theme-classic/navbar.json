@@ -1,0 +1,14 @@
+{
+  "theme.NotFound.title": {
+    "message": "الصفحة غير موجودة",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "لم نتمكن من العثور على ما كنت تبحث عنه.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "اللغة",
+    "description": "The label for the navbar mobile versions dropdown"
+  }
+}
