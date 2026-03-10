@@ -1,72 +1,76 @@
 ---
 id: intro
-title: À propos de UniCMMS
-sidebar_label: 👋 À propos de UniCMMS
+title: À propos d'UniCMMS
+sidebar_label: À propos d'UniCMMS
 sidebar_position: 1
-description: Découvrez UniCMMS — votre GMAO cloud pour gérer les bons de travail, les actifs, les stocks et la maintenance préventive.
-keywords: [UniCMMS, GMAO, gestion maintenance, bons de travail, actifs, maintenance préventive]
+description: Découvrez ce qu'est UniCMMS, ce qu'il fait et comment les équipes de maintenance l'utilisent pour organiser les ordres de travail, les équipements, les stocks et la maintenance préventive.
+keywords: [UniCMMS, GMAO, gestion de la maintenance, bons de travail, équipements, maintenance préventive]
 ---
 
-# Bienvenue dans le Centre d'Aide UniCMMS
+# Bienvenue dans le Centre d'aide UniCMMS
 
-Bienvenue dans le Centre d'Aide UniCMMS. Trouvez des guides étape par étape, des explications de fonctionnalités et des étapes de dépannage pour votre équipe de maintenance.
+Bienvenue dans le Centre d'aide UniCMMS. Trouvez des guides étape par étape, des explications sur les fonctionnalités et des étapes de dépannage pour votre équipe de maintenance.
 
 :::tip Nouvel utilisateur ?
-Si vous êtes un **nouvel utilisateur**, commencez par les **guides de configuration** ci-dessous. Si vous êtes un utilisateur existant, utilisez ce répertoire comme référence pour vos flux de travail quotidiens.
+Si vous êtes un **nouvel utilisateur**, commencez par les **guides d'installation** ci-dessous. Si vous êtes déjà utilisateur, utilisez ce répertoire comme référence pour vos flux de travail quotidiens.
 :::
 
 ---
 
-## À propos de UniCMMS
+## À propos d'UniCMMS
 
-UniCMMS est un **GMAO (Logiciel de Gestion de Maintenance Assistée par Ordinateur) basé sur le cloud** pour le web et le mobile. Il centralise les bons de travail, les actifs, les stocks et la maintenance préventive dans une seule plateforme.
+UniCMMS est une **GMAO (Gestion de Maintenance Assistée par Ordinateur) basée sur le cloud** pour le web et le mobile. Il centralise les ordres de travail, les équipements, les stocks et la maintenance préventive sur une seule plateforme — offrant à votre équipe de maintenance tout ce dont elle a besoin en un seul endroit.
 
-### Parcourir par catégorie
+### Parcourir par Catégorie
 
 | Catégorie | Description |
 |---|---|
-| 🛠️ [Bons de Travail](./maintenance/work-orders) | Gérer les bons de travail et les demandes |
-| 🔁 [Maintenance Régulière](./maintenance/regular-maintenance) | Planifier la maintenance préventive |
-| 📊 [Compteurs](./maintenance/meters) | Suivre les actifs et les métriques opérationnelles |
-| ⚡ [Déclencheurs](./maintenance/triggers) | Automatiser les flux de travail de maintenance |
-| 📋 [Modèles de Procédures](./maintenance/procedure-templates) | Créer des SOP et listes de contrôle |
-| 📩 [Demandes de Travail](./maintenance/work-requests) | Gérer les demandes de maintenance entrantes |
+| [Ordres de travail](./maintenance/work-orders) | Gérer les ordres de travail et les demandes |
+| [Maintenance Régulière](./maintenance/regular-maintenance) | Planifier la maintenance préventive |
+| [Compteurs & Déclencheurs](./maintenance/meters/about) | Suivre les équipements et les métriques |
+| [Déclencheurs](./maintenance/triggers) | Automatiser les flux de maintenance |
+| [Modèles de Procédure](./maintenance/procedure-templates) | Créer des SOPs et des listes de contrôle standardisées |
+| [Demandes de Travail](./maintenance/work-requests) | Gérer les demandes de maintenance entrantes |
 
 ---
 
 ## Comment fonctionne la plateforme
 
-### 1. Actifs et équipements
-Tout dans UniCMMS commence par vos **actifs** — machines, équipements ou installations que vous devez maintenir.
+UniCMMS est organisé autour de quelques concepts clés :
 
-### 2. Bons de travail
-Un **Bon de Travail** est le moteur central de vos opérations de maintenance. Il autorise, détaille et suit une tâche de maintenance spécifique du début à la fin.
+### 1. Actifs & Équipements
+Tout dans UniCMMS commence par vos **actifs** — machines, équipements ou installations que vous devez entretenir. Chaque actif possède son propre profil, historique et ordres de travail liés.
 
-### 3. Maintenance préventive
-Les **plannings de Maintenance Régulière (MP)** vous permettent d'automatiser les tâches récurrentes. Vous pouvez les déclencher en fonction du temps (chaque lundi) ou des relevés de compteurs (tous les 500 heures).
+### 2. Ordres de travail
+Un **Ordre de travail** est le moteur central de vos opérations de maintenance. Il autorise, détaille et suit une tâche de maintenance spécifique du début à la fin — qu'il s'agisse d'une réparation corrective ou d'une inspection programmée.
 
-### 4. Compteurs et déclencheurs
-Les **Compteurs** vous permettent d'enregistrer des données numériques continues (température, pression, heures). Les **Déclencheurs** surveillent ces lectures et déclenchent automatiquement des actions lorsque des seuils sont franchis.
+### 3. Maintenance Préventive
+Les plannings de **Maintenance Régulière (PM)** vous permettent d'automatiser des tâches de maintenance récurrentes. Vous pouvez les déclencher en fonction du temps (ex: chaque lundi) ou des relevés de compteurs (ex: toutes les 500 heures).
 
-### 5. Inventaire et pièces
-UniCMMS suit votre inventaire de pièces de rechange. Lorsqu'un bon de travail est terminé, le système déduit automatiquement les pièces consommées de votre stock.
+### 4. Compteurs & Déclencheurs
+Les **Compteurs** vous permettent d'enregistrer des données numériques en continu (température, pression, heures). Les **Déclencheurs** surveillent ces relevés et lancent automatiquement des actions lorsque des seuils sont franchis.
+
+### 5. Stocks & Pièces
+UniCMMS suit votre stock de pièces de rechange. Lorsqu'un ordre de travail est terminé, le système déduit automatiquement les pièces consommées de votre stock.
 
 ---
 
-## Accès basé sur les rôles
+## Accès Basé sur les Rôles
 
-UniCMMS utilise un **système de permissions basé sur les rôles** :
+UniCMMS utilise un **système de permissions basé sur les rôles**. Différents utilisateurs voient différentes fonctionnalités en fonction de leur rôle :
 
-| Rôle | Capacités typiques |
+| Rôle | Capacités Typiques |
 |---|---|
-| **Administrateur Système** | Accès complet — configurer les locataires, utilisateurs et permissions |
-| **Responsable Maintenance** | Gérer les bons de travail, approuver les demandes, accéder aux rapports |
-| **Technicien** | Exécuter les bons de travail, enregistrer les relevés, compléter les procédures |
-| **Demandeur** | Soumettre des demandes de travail uniquement (accès restreint) |
+| **Administrateur Système** | Accès complet — configurer les locataires, les utilisateurs, les permissions |
+| **Responsable Maintenance** | Gérer les ordres de travail, approuver les demandes, accéder aux rapports |
+| **Technicien** | Exécuter les ordres de travail, enregistrer les relevés, compléter les procédures |
+| **Demandeur** | Soumettre uniquement des demandes de travail (accès restreint) |
 
 ---
 
-## Obtenir du support
+## Obtenir de l'aide
 
-- 📧 **Support Email** : [support@unicmms.com](mailto:support@unicmms.com)
+Si vous ne trouvez pas ce que vous cherchez dans ce Centre d'aide :
+
+- 📧 **Support par Email** : [support@unicmms.com](mailto:support@unicmms.com)
 - 🌐 **Connexion à l'App** : [app.unicmms.com](https://app.unicmms.com)

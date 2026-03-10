@@ -9,7 +9,7 @@ const CATEGORIES = [
     icon: '📊',
     title: 'Meters',
     desc: 'Track physical conditions and operational metrics over time. Build a precise history of any monitored variable.',
-    href: '/docs/maintenance/meters',
+    href: '/docs/maintenance/meters/about',
   },
   {
     icon: '⚡',
@@ -61,7 +61,21 @@ export default function Home() {
   function handleSearch(e) {
     e.preventDefault();
     const q = searchRef.current?.value?.trim();
-    if (q) history.push(`/search?q=${encodeURIComponent(q)}`);
+    if (!q) return;
+
+    // Find the global search input in the navbar
+    const navbarSearchInput = document.querySelector('.navbar__search-input');
+    if (navbarSearchInput) {
+      navbarSearchInput.focus();
+      // Set value and trigger events
+      const nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
+      nativeInputValueSetter.call(navbarSearchInput, q);
+      
+      // Trigger multiple events to satisfy different plugin listeners
+      navbarSearchInput.dispatchEvent(new Event('input', { bubbles: true }));
+      navbarSearchInput.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
+      navbarSearchInput.dispatchEvent(new KeyboardEvent('keyup', { key: 'Enter', bubbles: true }));
+    }
   }
 
   return (
@@ -91,7 +105,7 @@ export default function Home() {
           </p>
 
           <div className="hero-search-wrap">
-            <form className="hero-search" onSubmit={handleSearch}>
+            <form className="hero-search" onSubmit={(e) => e.preventDefault()}>
               <span className="hero-search-icon">🔍</span>
               <input
                 ref={searchRef}
@@ -99,8 +113,23 @@ export default function Home() {
                 placeholder={'Search documentation\u2026 (e.g. \u201ccreate work order\u201d)'}
                 aria-label="Search documentation"
                 id="hero-search-input"
+                onChange={(e) => {
+                  const val = e.target.value;
+                  const navbarSearchInput = document.querySelector('.navbar__search-input');
+                  if (navbarSearchInput) {
+                    // This trick forces the value even if React is controlling it
+                    const nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
+                    nativeInputValueSetter.call(navbarSearchInput, val);
+                    navbarSearchInput.dispatchEvent(new Event('input', { bubbles: true }));
+                  }
+                }}
+                onFocus={() => {
+                  // Pre-focus the hidden one to ensure the modal is ready
+                  document.querySelector('.navbar__search-input')?.focus();
+                  searchRef.current?.focus();
+                }}
               />
-              <button type="submit" id="hero-search-btn">Search</button>
+              <div className="hero-search-kbd">⌘K</div>
             </form>
           </div>
 
@@ -108,7 +137,7 @@ export default function Home() {
             Popular:&nbsp;
             <Link to="/docs/maintenance/work-orders">Work Orders</Link>
             {' · '}
-            <Link to="/docs/maintenance/meters">Meters</Link>
+            <Link to="/docs/maintenance/meters/about">Meters</Link>
             {' · '}
             <Link to="/docs/maintenance/triggers">Triggers</Link>
             {' · '}

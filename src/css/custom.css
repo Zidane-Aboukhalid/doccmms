@@ -1,6 +1,6 @@
 /* ============================================================
    UniCMMS Help Center — Premium Custom CSS
-   Brand: #46beb8 (teal) | #160647 (navy) | #3D9970 (brand green)
+   Brand: #46beb8 (teal) | #0f172a (navy slate) | #3D9970 (brand green)
    ============================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
@@ -15,12 +15,12 @@
   --ifm-color-primary-lighter: #62c8c3;
   --ifm-color-primary-lightest: #7fcfcb;
 
-  --brand-navy: #160647;
+  --brand-navy: #0f172a;
   --brand-teal: #46beb8;
   --brand-green: #46beb8;
   --brand-green-dark: #3faaa4;
   --brand-teal-light: #6accc7;
-  --brand-gradient: radial-gradient(ellipse at bottom right, #388484 0%, #23365f 30%, #1a1040 60%, #12052b 100%);
+  --brand-gradient: radial-gradient(ellipse at bottom right, #388484 0%, #1e293b 30%, #0f172a 60%, #020617 100%);
 
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
   --ifm-heading-font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
@@ -32,18 +32,18 @@
   --ifm-sidebar-width: 288px;
 
   --card-radius: 16px;
-  --card-shadow: 0 2px 16px rgba(22, 6, 71, 0.07), 0 1px 4px rgba(22, 6, 71, 0.05);
-  --card-shadow-hover: 0 16px 48px rgba(22, 6, 71, 0.14), 0 4px 12px rgba(70, 190, 184, 0.12);
+  --card-shadow: 0 2px 16px rgba(15, 23, 42, 0.07), 0 1px 4px rgba(15, 23, 42, 0.05);
+  --card-shadow-hover: 0 16px 48px rgba(15, 23, 42, 0.14), 0 4px 12px rgba(70, 190, 184, 0.12);
   --transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 [data-theme='dark'] {
   --ifm-color-primary: #46beb8;
   --ifm-color-primary-dark: #36aaa4;
-  --ifm-background-color: #0b0920;
-  --ifm-background-surface-color: #120e2e;
-  --ifm-navbar-background-color: rgba(11, 9, 32, 0.97);
-  --ifm-footer-background-color: #070514;
+  --ifm-background-color: #020617;
+  --ifm-background-surface-color: #0f172a;
+  --ifm-navbar-background-color: rgba(2, 6, 23, 0.97);
+  --ifm-footer-background-color: #010413;
   --card-shadow: 0 2px 16px rgba(0,0,0,0.35);
   --card-shadow-hover: 0 16px 48px rgba(0,0,0,0.5), 0 4px 12px rgba(70, 190, 184, 0.15);
 }
@@ -86,7 +86,7 @@ h3 { font-size: 1.15rem; color: var(--brand-green); }
   font-family: var(--ifm-heading-font-family);
   font-weight: 800;
   font-size: 1.05rem;
-  color: var(--brand-navy) !important;
+  color: #0f172a !important;
   letter-spacing: -0.02em;
   text-decoration: none !important;
 }
@@ -216,33 +216,72 @@ table {
   border-radius: 12px;
   overflow: hidden;
   border-collapse: collapse;
-  width: 100%;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
-  margin: 1.5rem 0;
+  width: 100% !important; 
+  display: table !important; 
+  box-shadow: 0 10px 40px rgba(15, 23, 42, 0.08), 0 2px 8px rgba(15, 23, 42, 0.04);
+  margin: 3rem 0;
+  border: 1px solid #cbd5e1 !important;
+  background: #ffffff !important;
 }
 
-table thead tr { background: var(--brand-navy) !important; }
-[data-theme='dark'] table thead tr { background: #160647 !important; }
+[data-theme='dark'] table {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+table thead tr { 
+  background: #46beb8 !important; /* Brand Teal */
+  border-bottom: 2px solid rgba(0,0,0,0.1) !important;
+}
+
+[data-theme='dark'] table thead tr { 
+  background: #46beb8 !important; 
+}
 
 table thead th {
-  font-weight: 600;
-  font-size: 0.82rem;
-  padding: 12px 16px;
-  color: rgba(255,255,255,0.92) !important;
-  border: none !important;
-  letter-spacing: 0.04em;
+  font-weight: 800;
+  font-size: 0.75rem;
+  padding: 18px 20px;
+  color: #ffffff !important; /* High contrast White */
+  border: 1px solid rgba(255, 255, 255, 0.15) !important; 
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
-table tbody tr:nth-child(even) { background: rgba(61, 153, 112, 0.03); }
-[data-theme='dark'] table tbody tr:nth-child(even) { background: rgba(61,153,112,0.06); }
+/* Subtle Zebra Striping for maximum clarity */
+table tbody tr:nth-child(even) {
+  background: #f8fafc !important; /* Slate 50 */
+}
+
+table tbody tr:nth-child(odd) {
+  background: #ffffff !important;
+}
+
+[data-theme='dark'] table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.03) !important;
+}
 
 table td {
-  padding: 10px 16px;
-  border: none !important;
-  border-bottom: 1px solid rgba(61, 153, 112, 0.08) !important;
-  font-size: 0.9rem;
+  padding: 16px 20px;
+  border: 1px solid #cbd5e1 !important;
+  font-size: 0.95rem;
   line-height: 1.6;
+  color: #334155 !important; /* Slate 700 */
+}
+
+[data-theme='dark'] table td {
+  border-color: #334155 !important;
+  color: #cbd5e1 !important;
+}
+
+table tbody tr:hover {
+  background: rgba(70, 190, 184, 0.08) !important;
+  transition: background 0.2s ease;
+}
+
+table tbody tr:hover {
+  background: rgba(70, 190, 184, 0.1) !important;
 }
 
 /* Breadcrumbs */
@@ -280,7 +319,7 @@ table td {
 
 /* ── Footer ────────────────────────────────────────────────── */
 .footer {
-  background: #07051a !important;
+  background: #020617 !important;
   border-top: 1px solid rgba(61, 153, 112, 0.12);
 }
 .footer__title {
@@ -345,9 +384,9 @@ html[dir='rtl'] .navbar__brand::after {
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  background: rgba(22, 6, 71, 0.05);
-  border: 1px solid rgba(22, 6, 71, 0.1);
-  color: var(--brand-navy);
+  background: rgba(15, 23, 42, 0.05);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  color: #0f172a;
   border-radius: 100px;
   padding: 6px 16px;
   font-size: 0.75rem;
@@ -392,6 +431,19 @@ html[dir='rtl'] .navbar__brand::after {
   background-clip: border-box;
 }
 
+/* Custom styling for the highlighting in search results */
+.algolia-autocomplete mark {
+  background: rgba(70, 190, 184, 0.25) !important;
+  color: var(--brand-navy) !important;
+  padding: 0 2px !important;
+  border-radius: 2px !important;
+}
+
+[data-theme='dark'] .algolia-autocomplete mark {
+  background: rgba(70, 190, 184, 0.4) !important;
+  color: #fff !important;
+}
+
 .hero-subtitle {
   color: #64748b;
   font-size: 1.1rem;
@@ -413,9 +465,26 @@ html[dir='rtl'] .navbar__brand::after {
   gap: 0;
   background: #ffffff;
   border-radius: 100px;
-  padding: 6px 6px 6px 20px;
-  box-shadow: 0 8px 40px rgba(22, 6, 71, 0.08);
-  border: 1px solid rgba(22, 6, 71, 0.1);
+  padding: 8px 8px 8px 24px;
+  box-shadow: 0 10px 40px rgba(15, 23, 42, 0.08), 0 2px 4px rgba(15, 23, 42, 0.04);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  transition: var(--transition);
+  position: relative; /* Add this */
+}
+
+.hero-search:focus-within {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 50px rgba(15, 23, 42, 0.12), 0 4px 12px rgba(70, 190, 184, 0.15);
+  border-color: var(--brand-teal);
+}
+
+[data-theme='dark'] .hero-search {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme='dark'] .hero-search:focus-within {
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .hero-search-icon { color: #94a3b8; flex-shrink: 0; font-size: 1.1rem; }
@@ -425,33 +494,51 @@ html[dir='rtl'] .navbar__brand::after {
   border: none;
   outline: none;
   font-size: 0.98rem;
-  background: transparent;
-  color: #160647;
+  background: transparent !important; /* Ensure no background */
+  color: #0f172a;
   font-family: var(--ifm-font-family-base);
   padding: 8px 12px;
+  box-shadow: none !important; /* Remove any shadow/ring */
+}
+
+/* Force results to be centered/moved when triggered from hero */
+body:has(#hero-search-input:focus) .algolia-autocomplete .ds-dropdown-menu,
+body:has(#hero-search-input:not(:placeholder-shown)) .algolia-autocomplete .ds-dropdown-menu {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  top: 400px !important; /* Move it down to the hero area */
+  position: fixed !important;
+  min-width: 600px !important;
+}
+
+@media (max-width: 996px) {
+  body:has(#hero-search-input:focus) .algolia-autocomplete .ds-dropdown-menu,
+  body:has(#hero-search-input:not(:placeholder-shown)) .algolia-autocomplete .ds-dropdown-menu {
+    top: 360px !important;
+    min-width: 90% !important;
+  }
 }
 
 .hero-search input::placeholder { color: #94a3b8; }
 
-/* Solid button, no gradient */
-.hero-search button {
-  background: var(--brand-teal);
-  color: #fff;
-  border: none;
-  border-radius: 100px;
-  padding: 11px 28px;
-  font-size: 0.9rem;
+/* KBD indicator in hero search */
+.hero-search-kbd {
+  background: rgba(15, 23, 42, 0.05);
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 4px;
+  color: #64748b;
+  font-size: 0.7rem;
   font-weight: 700;
-  cursor: pointer;
-  transition: var(--transition);
-  white-space: nowrap;
-  letter-spacing: -0.01em;
+  padding: 2px 6px;
+  margin-right: 4px;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
 }
 
-.hero-search button:hover {
-  background: var(--brand-green-dark);
-  transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(61,153,112,0.4);
+[data-theme='dark'] .hero-search-kbd {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #94a3b8;
 }
 
 .hero-hints {
@@ -737,4 +824,35 @@ html[dir='rtl'] .navbar__brand::after {
   .hero-section { padding: 72px 20px 100px; }
   .stats-inner { flex-wrap: wrap; gap: 24px; }
   .stat-item { border-right: none; flex: 0 0 40%; }
+}
+
+
+/* ── Search UI (easyops-cn/docusaurus-search-local) ──────────── */
+/* Centered & Modern Modal Styling */
+
+/* Suggestion Highlighting */
+.search-local-modal mark {
+  background: rgba(70, 190, 184, 0.25) !important;
+  color: var(--brand-navy) !important;
+  padding: 0 2px !important;
+  border-radius: 2px !important;
+}
+
+[data-theme='dark'] .search-local-modal mark {
+  background: rgba(70, 190, 184, 0.4) !important;
+  color: #fff !important;
+}
+
+/* Modal Body */
+.search-local-modal .search-result-item--highlight {
+  color: var(--brand-teal) !important;
+}
+
+.search-local-modal .search-result-item--active {
+  background-color: rgba(70, 190, 184, 0.1) !important;
+  border-left-color: var(--brand-teal) !important;
+}
+
+.search-local-modal .search-result-item:hover {
+  background-color: rgba(70, 190, 184, 0.05) !important;
 }

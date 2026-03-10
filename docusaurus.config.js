@@ -7,6 +7,7 @@ const config = {
 
   url: 'https://help.unicmms.com',
   baseUrl: '/',
+  trailingSlash: false,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -66,7 +67,18 @@ const config = {
     ],
   ],
 
-  plugins: [],
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en", "ar", "fr", "es", "de"],
+        indexDocs: true,
+        indexPages: true,
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */

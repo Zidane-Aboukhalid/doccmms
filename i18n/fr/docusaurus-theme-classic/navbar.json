@@ -10,5 +10,21 @@
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Langue",
     "description": "The label for the navbar mobile versions dropdown"
+  },
+  "title": {
+    "message": "UniCMMS",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Centre d'aide UniCMMS",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "Documentation",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Open App": {
+    "message": "Ouvrir l'application",
+    "description": "Navbar item with label Open App"
   }
 }
