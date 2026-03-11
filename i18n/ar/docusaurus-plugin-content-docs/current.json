@@ -190,5 +190,57 @@
   "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-delete-a-pm-schedule": {
     "message": "حذف جدول صيانة دورية",
     "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.category.Facility & Assets": {
+    "message": "المرافق والأصول",
+    "description": "The label for category Facility & Assets in sidebar"
+  },
+  "sidebar.mainSidebar.category.Assets": {
+    "message": "الأصول",
+    "description": "The label for category Assets in sidebar"
+  },
+  "sidebar.mainSidebar.category.Facilities": {
+    "message": "المرافق",
+    "description": "The label for category Facilities in sidebar"
+  },
+  "sidebar.mainSidebar.category.Hierarchy": {
+    "message": "الهيكل التنظيمي",
+    "description": "The label for category Hierarchy in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/about": {
+    "message": "حول الأصول",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/how-to-create-an-asset": {
+    "message": "كيفية إنشاء أصل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/how-to-edit-or-delete": {
+    "message": "تعديل أو حذف أصل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/asset-management-features": {
+    "message": "ميزات إدارة الأصول المتقدمة",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-create-a-facility": {
+    "message": "كيفية إنشاء مرفق",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-edit-a-facility": {
+    "message": "كيفية تعديل مرفق",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-delete-a-facility": {
+    "message": "كيفية حذف مرفق",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.hierarchy/understanding-hierarchy": {
+    "message": "فهم الهيكل التنظيمي",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.hierarchy/how-to-build-from-hierarchy": {
+    "message": "البناء من عرض الهيكل",
+    "description": "The label for doc in sidebar"
   }
 }

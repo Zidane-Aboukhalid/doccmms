@@ -190,5 +190,57 @@
   "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-delete-a-pm-schedule": {
     "message": "Wartungsplan löschen",
     "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.category.Facility & Assets": {
+    "message": "Anlagen und Vermögenswerte",
+    "description": "The label for category Facility & Assets in sidebar"
+  },
+  "sidebar.mainSidebar.category.Assets": {
+    "message": "Vermögenswerte",
+    "description": "The label for category Assets in sidebar"
+  },
+  "sidebar.mainSidebar.category.Facilities": {
+    "message": "Anlagen",
+    "description": "The label for category Facilities in sidebar"
+  },
+  "sidebar.mainSidebar.category.Hierarchy": {
+    "message": "Hierarchie",
+    "description": "The label for category Hierarchy in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/about": {
+    "message": "Über Vermögenswerte",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/how-to-create-an-asset": {
+    "message": "Vermögenswert erstellen",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/how-to-edit-or-delete": {
+    "message": "Vermögenswert bearbeiten oder löschen",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/asset-management-features": {
+    "message": "Asset-Management-Funktionen",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-create-a-facility": {
+    "message": "Anlage erstellen",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-edit-a-facility": {
+    "message": "Anlage bearbeiten",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-delete-a-facility": {
+    "message": "Anlage löschen",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.hierarchy/understanding-hierarchy": {
+    "message": "Hierarchie verstehen",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.hierarchy/how-to-build-from-hierarchy": {
+    "message": "Aus der Hierarchie aufbauen",
+    "description": "The label for doc in sidebar"
   }
 }

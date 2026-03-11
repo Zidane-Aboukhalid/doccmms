@@ -190,5 +190,57 @@
   "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-delete-a-pm-schedule": {
     "message": "Supprimer un Planning PM",
     "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.category.Facility & Assets": {
+    "message": "Installations et Actifs",
+    "description": "The label for category Facility & Assets in sidebar"
+  },
+  "sidebar.mainSidebar.category.Assets": {
+    "message": "Actifs",
+    "description": "The label for category Assets in sidebar"
+  },
+  "sidebar.mainSidebar.category.Facilities": {
+    "message": "Installations",
+    "description": "The label for category Facilities in sidebar"
+  },
+  "sidebar.mainSidebar.category.Hierarchy": {
+    "message": "Hiérarchie",
+    "description": "The label for category Hierarchy in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/about": {
+    "message": "À propos des Actifs",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/how-to-create-an-asset": {
+    "message": "Créer un Actif",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/how-to-edit-or-delete": {
+    "message": "Modifier ou Supprimer un Actif",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/asset-management-features": {
+    "message": "Fonctionnalités de Gestion d'Actifs",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-create-a-facility": {
+    "message": "Créer une Installation",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-edit-a-facility": {
+    "message": "Modifier une Installation",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-delete-a-facility": {
+    "message": "Supprimer une Installation",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.hierarchy/understanding-hierarchy": {
+    "message": "Comprendre la Hiérarchie",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.hierarchy/how-to-build-from-hierarchy": {
+    "message": "Construire depuis la Hiérarchie",
+    "description": "The label for doc in sidebar"
   }
 }

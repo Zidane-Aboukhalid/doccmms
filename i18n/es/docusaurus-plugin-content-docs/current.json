@@ -190,5 +190,57 @@
   "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-delete-a-pm-schedule": {
     "message": "Eliminar un Programa PM",
     "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.category.Facility & Assets": {
+    "message": "Instalaciones y Activos",
+    "description": "The label for category Facility & Assets in sidebar"
+  },
+  "sidebar.mainSidebar.category.Assets": {
+    "message": "Activos",
+    "description": "The label for category Assets in sidebar"
+  },
+  "sidebar.mainSidebar.category.Facilities": {
+    "message": "Instalaciones",
+    "description": "The label for category Facilities in sidebar"
+  },
+  "sidebar.mainSidebar.category.Hierarchy": {
+    "message": "Jerarquía",
+    "description": "The label for category Hierarchy in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/about": {
+    "message": "Acerca de los Activos",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/how-to-create-an-asset": {
+    "message": "Crear un Activo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/how-to-edit-or-delete": {
+    "message": "Editar o Eliminar un Activo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.assets/asset-management-features": {
+    "message": "Funciones de Gestión de Activos",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-create-a-facility": {
+    "message": "Crear una Instalación",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-edit-a-facility": {
+    "message": "Editar una Instalación",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.facility/how-to-delete-a-facility": {
+    "message": "Eliminar una Instalación",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.hierarchy/understanding-hierarchy": {
+    "message": "Entender la Jerarquía",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.hierarchy/how-to-build-from-hierarchy": {
+    "message": "Construir desde la Jerarquía",
+    "description": "The label for doc in sidebar"
   }
 }

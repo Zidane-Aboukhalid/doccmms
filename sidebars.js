@@ -11,7 +11,7 @@ const sidebars = {
       label: 'Maintenance',
       collapsed: false,
       items: [
-        { type: 'doc', id: 'maintenance/maintenance-about', label: 'About Maintenance 🔧' },
+        { type: 'doc', id: 'maintenance/maintenance-about', label: 'About Maintenance' },
         // ── Meters ──────────────────────────────────────────────
         {
           type: 'category',
@@ -107,9 +107,34 @@ const sidebars = {
       label: 'Facility & Assets',
       collapsed: false,
       items: [
-        { type: 'doc', id: 'assets/assets-about', label: 'About Assets 🏭' },
-        { type: 'doc', id: 'intro', label: 'Equipment 🚜' },
-        { type: 'doc', id: 'intro', label: 'Locations 📍' },
+        {
+          type: 'category',
+          label: 'Assets',
+          items: [
+            { type: 'doc', id: 'assets/about' },
+            { type: 'doc', id: 'assets/how-to-create-an-asset' },
+            { type: 'doc', id: 'assets/how-to-edit-or-delete' },
+            { type: 'doc', id: 'assets/asset-management-features' },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Facilities',
+          items: [
+            { type: 'doc', id: 'facility/how-to-create-a-facility' },
+            { type: 'doc', id: 'facility/how-to-edit-a-facility', },
+            { type: 'doc', id: 'facility/how-to-delete-a-facility', },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Hierarchy',
+          items: [
+
+            { type: 'doc', id: 'hierarchy/understanding-hierarchy' },
+            { type: 'doc', id: 'hierarchy/how-to-build-from-hierarchy' },
+          ],
+        },
       ],
     },
   ],
