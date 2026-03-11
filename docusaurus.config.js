@@ -5,9 +5,16 @@ const config = {
   tagline: 'Step-by-step guides and documentation for your maintenance team.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://help.unicmms.com',
-  baseUrl: '/',
+  url: 'https://Zidane-Aboukhalid.github.io',
+  baseUrl: '/doccmms/',
+
+  organizationName: 'Zidane-Aboukhalid',
+  projectName: 'doccmms',
+
   trailingSlash: false,
+  // url: 'https://help.unicmms.com',
+  // baseUrl: '/',
+  // trailingSlash: false,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -51,7 +58,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/unicmms/help-center/tree/main/',
+          editUrl: 'https://github.com/Zidane-Aboukhalid/doccmms/tree/main/',
         },
         blog: false,
         theme: {
