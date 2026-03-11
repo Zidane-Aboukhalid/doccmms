@@ -1,0 +1,62 @@
+{
+  "sidebar.mainSidebar.doc.intro": {
+    "message": "À propos de UniCMMS",
+    "description": "The label for doc intro in sidebar"
+  },
+  "sidebar.mainSidebar.category.Maintenance": {
+    "message": "Maintenance",
+    "description": "The label for category Maintenance in sidebar"
+  },
+  "sidebar.mainSidebar.category.Meters": {
+    "message": "Compteurs",
+    "description": "The label for category Meters in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers": {
+    "message": "Déclencheurs",
+    "description": "The label for doc triggers in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates": {
+    "message": "Modèles de Procédures",
+    "description": "The label for doc procedure-templates in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders": {
+    "message": "Bons de Travail",
+    "description": "The label for doc work-orders in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests": {
+    "message": "Demandes de Travail",
+    "description": "The label for doc work-requests in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance": {
+    "message": "Maintenance Régulière (PM)",
+    "description": "The label for doc regular-maintenance in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/about": {
+    "message": "À propos des Compteurs",
+    "description": "The label for doc meters/about in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-create-a-meter": {
+    "message": "Créer un Compteur",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-duplicate-a-meter": {
+    "message": "Dupliquer un Compteur",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-update-a-meter": {
+    "message": "Modifier un Compteur",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-delete-a-meter": {
+    "message": "Supprimer un Compteur",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-record-a-meter-reading": {
+    "message": "Enregistrer une Lecture",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-allow-backdated-meter-history-editing": {
+    "message": "Autoriser la Modification Rétroactive",
+    "description": "The label for doc in sidebar"
+  }
+}

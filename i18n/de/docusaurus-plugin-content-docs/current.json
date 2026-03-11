@@ -1,0 +1,62 @@
+{
+  "sidebar.mainSidebar.doc.intro": {
+    "message": "Über UniCMMS",
+    "description": "The label for doc intro in sidebar"
+  },
+  "sidebar.mainSidebar.category.Maintenance": {
+    "message": "Wartung",
+    "description": "The label for category Maintenance in sidebar"
+  },
+  "sidebar.mainSidebar.category.Meters": {
+    "message": "Zähler",
+    "description": "The label for category Meters in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers": {
+    "message": "Auslöser",
+    "description": "The label for doc triggers in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates": {
+    "message": "Verfahrensvorlagen",
+    "description": "The label for doc procedure-templates in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders": {
+    "message": "Arbeitsaufträge",
+    "description": "The label for doc work-orders in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests": {
+    "message": "Arbeitsanfragen",
+    "description": "The label for doc work-requests in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance": {
+    "message": "Regelmäßige Wartung (PM)",
+    "description": "The label for doc regular-maintenance in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/about": {
+    "message": "Über Zähler",
+    "description": "The label for doc meters/about in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-create-a-meter": {
+    "message": "Zähler erstellen",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-duplicate-a-meter": {
+    "message": "Zähler duplizieren",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-update-a-meter": {
+    "message": "Zähler aktualisieren",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-delete-a-meter": {
+    "message": "Zähler löschen",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-record-a-meter-reading": {
+    "message": "Ablesung erfassen",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-allow-backdated-meter-history-editing": {
+    "message": "Rückdatierte Bearbeitung erlauben",
+    "description": "The label for doc in sidebar"
+  }
+}

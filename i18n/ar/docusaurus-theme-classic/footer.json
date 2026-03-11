@@ -1,49 +1,49 @@
 {
-  "footer.link.title.Documentation": {
+  "link.title.Documentation": {
     "message": "التوثيق",
     "description": "The title of the footer links column with title=Documentation"
   },
-  "footer.link.title.Maintenance": {
+  "link.title.Maintenance": {
     "message": "الصيانة",
     "description": "The title of the footer links column with title=Maintenance"
   },
-  "footer.link.title.Support": {
+  "link.title.Support": {
     "message": "الدعم",
     "description": "The title of the footer links column with title=Support"
   },
-  "footer.link.item.label.Getting Started": {
+  "link.item.label.Getting Started": {
     "message": "البداية",
     "description": "Footer link label"
   },
-  "footer.link.item.label.Work Orders": {
+  "link.item.label.Work Orders": {
     "message": "أوامر العمل",
     "description": "Footer link label"
   },
-  "footer.link.item.label.Meters": {
+  "link.item.label.Meters": {
     "message": "العدادات",
     "description": "Footer link label"
   },
-  "footer.link.item.label.Triggers": {
+  "link.item.label.Triggers": {
     "message": "المشغّلات",
     "description": "Footer link label"
   },
-  "footer.link.item.label.Procedure Templates": {
+  "link.item.label.Procedure Templates": {
     "message": "قوالب الإجراءات",
     "description": "Footer link label"
   },
-  "footer.link.item.label.Work Requests": {
+  "link.item.label.Work Requests": {
     "message": "طلبات العمل",
     "description": "Footer link label"
   },
-  "footer.link.item.label.Regular Maintenance (PM)": {
+  "link.item.label.Regular Maintenance (PM)": {
     "message": "الصيانة الدورية (PM)",
     "description": "Footer link label"
   },
-  "footer.link.item.label.Contact Support": {
+  "link.item.label.Contact Support": {
     "message": "تواصل مع الدعم",
     "description": "Footer link label"
   },
-  "footer.link.item.label.App Login": {
+  "link.item.label.App Login": {
     "message": "تسجيل الدخول",
     "description": "Footer link label"
   }

@@ -1,0 +1,194 @@
+{
+  "sidebar.mainSidebar.doc.intro": {
+    "message": "حول UniCMMS",
+    "description": "The label for doc intro in sidebar"
+  },
+  "sidebar.mainSidebar.category.Maintenance": {
+    "message": "الصيانة",
+    "description": "The label for category Maintenance in sidebar"
+  },
+  "sidebar.mainSidebar.category.Meters": {
+    "message": "العدادات",
+    "description": "The label for category Meters in sidebar"
+  },
+  "sidebar.mainSidebar.category.Triggers": {
+    "message": "المشغّلات",
+    "description": "The label for category Triggers in sidebar"
+  },
+  "sidebar.mainSidebar.category.Procedure Templates": {
+    "message": "قوالب الإجراءات",
+    "description": "The label for category Procedure Templates in sidebar"
+  },
+  "sidebar.mainSidebar.category.Work Orders": {
+    "message": "أوامر العمل",
+    "description": "The label for category Work Orders in sidebar"
+  },
+  "sidebar.mainSidebar.category.Work Requests": {
+    "message": "طلبات العمل",
+    "description": "The label for category Work Requests in sidebar"
+  },
+  "sidebar.mainSidebar.category.Regular Maintenance (PM)": {
+    "message": "الصيانة الدورية (PM)",
+    "description": "The label for category Regular Maintenance in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/about": {
+    "message": "حول العدادات",
+    "description": "The label for doc meters/about in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-create-a-meter": {
+    "message": "إنشاء عداد",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-duplicate-a-meter": {
+    "message": "نسخ عداد",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-update-a-meter": {
+    "message": "تعديل عداد",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-delete-a-meter": {
+    "message": "حذف عداد",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-record-a-meter-reading": {
+    "message": "تسجيل قراءة عداد",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-allow-backdated-meter-history-editing": {
+    "message": "السماح بتعديل السجل بتاريخ سابق",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/about": {
+    "message": "حول المشغّلات",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-create-a-meter-trigger": {
+    "message": "إنشاء مشغّل عداد",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-duplicate-a-meter-trigger": {
+    "message": "نسخ مشغّل عداد",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-edit-a-meter-trigger": {
+    "message": "تعديل مشغّل عداد",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-delete-a-meter-trigger": {
+    "message": "حذف مشغّل عداد",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-create-a-time-trigger": {
+    "message": "إنشاء مشغّل زمني",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-duplicate-a-time-trigger": {
+    "message": "نسخ مشغّل زمني",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-edit-a-time-trigger": {
+    "message": "تعديل مشغّل زمني",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-delete-a-time-trigger": {
+    "message": "حذف مشغّل زمني",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/about": {
+    "message": "حول قوالب الإجراءات",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-create-a-procedure-template": {
+    "message": "إنشاء قالب إجراء",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-duplicate-a-procedure-template": {
+    "message": "نسخ قالب إجراء",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-edit-a-procedure-template": {
+    "message": "تعديل قالب إجراء",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-delete-a-procedure-template": {
+    "message": "حذف قالب إجراء",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/about": {
+    "message": "حول أوامر العمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-create-a-work-order": {
+    "message": "إنشاء أمر عمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-duplicate-a-work-order": {
+    "message": "نسخ أمر عمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-edit-a-work-order": {
+    "message": "تعديل أمر عمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-delete-a-work-order": {
+    "message": "حذف أمر عمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-change-work-order-status": {
+    "message": "تغيير حالة أمر العمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-add-a-procedure-to-a-work-order": {
+    "message": "إضافة إجراء لأمر العمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-add-parts-and-supplies": {
+    "message": "إضافة قطع وتجهيزات",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-log-additional-costs": {
+    "message": "تسجيل تكاليف إضافية",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/about": {
+    "message": "حول طلبات العمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-create-a-work-request": {
+    "message": "إنشاء طلب عمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-edit-a-work-request": {
+    "message": "تعديل طلب عمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-approve-a-work-request": {
+    "message": "قبول طلب عمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-decline-a-work-request": {
+    "message": "رفض طلب عمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-delete-a-work-request": {
+    "message": "حذف طلب عمل",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/about": {
+    "message": "حول الصيانة الدورية",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-create-a-pm-schedule": {
+    "message": "إنشاء جدول صيانة دورية",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-edit-a-pm-schedule": {
+    "message": "تعديل جدول صيانة دورية",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-delete-a-pm-schedule": {
+    "message": "حذف جدول صيانة دورية",
+    "description": "The label for doc in sidebar"
+  }
+}

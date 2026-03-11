@@ -1,0 +1,62 @@
+{
+  "sidebar.mainSidebar.doc.intro": {
+    "message": "Acerca de UniCMMS",
+    "description": "The label for doc intro in sidebar"
+  },
+  "sidebar.mainSidebar.category.Maintenance": {
+    "message": "Mantenimiento",
+    "description": "The label for category Maintenance in sidebar"
+  },
+  "sidebar.mainSidebar.category.Meters": {
+    "message": "Medidores",
+    "description": "The label for category Meters in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers": {
+    "message": "Disparadores",
+    "description": "The label for doc triggers in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates": {
+    "message": "Plantillas de Procedimientos",
+    "description": "The label for doc procedure-templates in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders": {
+    "message": "Órdenes de Trabajo",
+    "description": "The label for doc work-orders in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests": {
+    "message": "Solicitudes de Trabajo",
+    "description": "The label for doc work-requests in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance": {
+    "message": "Mantenimiento Regular (PM)",
+    "description": "The label for doc regular-maintenance in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/about": {
+    "message": "Acerca de los Medidores",
+    "description": "The label for doc meters/about in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-create-a-meter": {
+    "message": "Crear un Medidor",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-duplicate-a-meter": {
+    "message": "Duplicar un Medidor",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-update-a-meter": {
+    "message": "Actualizar un Medidor",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-delete-a-meter": {
+    "message": "Eliminar un Medidor",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-record-a-meter-reading": {
+    "message": "Registrar una Lectura",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/meters/how-to-allow-backdated-meter-history-editing": {
+    "message": "Permitir Edición Retroactiva",
+    "description": "The label for doc in sidebar"
+  }
+}

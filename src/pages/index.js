@@ -25,7 +25,7 @@ const CATEGORIES = [
     descId: 'homepage.card.triggers.desc',
     descMsg:
       'Automate workflows with time-based or condition-based rules. Set thresholds and let the system act for you.',
-    href: '/docs/maintenance/triggers',
+    href: '/docs/maintenance/triggers/about',
   },
   {
     icon: '🛠️',
@@ -34,7 +34,7 @@ const CATEGORIES = [
     descId: 'homepage.card.workorders.desc',
     descMsg:
       'Create, assign, track and complete maintenance tasks. Full lifecycle management with cost tracking.',
-    href: '/docs/maintenance/work-orders',
+    href: '/docs/maintenance/work-orders/about',
   },
   {
     icon: '📩',
@@ -43,7 +43,7 @@ const CATEGORIES = [
     descId: 'homepage.card.workrequests.desc',
     descMsg:
       'Allow team members and guests to submit tickets. Review, approve or decline before creating work orders.',
-    href: '/docs/maintenance/work-requests',
+    href: '/docs/maintenance/work-requests/about',
   },
   {
     icon: '📋',
@@ -52,7 +52,7 @@ const CATEGORIES = [
     descId: 'homepage.card.procedures.desc',
     descMsg:
       'Build standardized SOPs and safety checklists with conditional logic. Attach to any work order.',
-    href: '/docs/maintenance/procedure-templates',
+    href: '/docs/maintenance/procedure-templates/about',
   },
   {
     icon: '🔁',
@@ -61,7 +61,7 @@ const CATEGORIES = [
     descId: 'homepage.card.pm.desc',
     descMsg:
       'Schedule preventive maintenance (PM) plans to keep equipment running on time or usage intervals.',
-    href: '/docs/maintenance/regular-maintenance',
+    href: '/docs/maintenance/regular-maintenance/about',
   },
 ];
 
