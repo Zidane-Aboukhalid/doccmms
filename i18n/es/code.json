@@ -1,10 +1,10 @@
 {
   "homepage.hero.title": {
-    "message": "Tu Guía Completa de Mantenimiento",
+    "message": "Tu Guía Completa de UniCMMS",
     "description": "Hero section main title"
   },
   "homepage.hero.subtitle": {
-    "message": "Todo lo que tu equipo necesita para dominar UniCMMS — desde crear tu primera orden de trabajo hasta automatizar programas de PM complejos.",
+    "message": "Todo lo que tu equipo necesita para dominar UniCMMS — desde crear tu primera orden de trabajo hasta automatizar programas de PM complejos, gestionar el inventario y rastrear las compras.",
     "description": "Hero section subtitle"
   },
   "homepage.hero.searchPlaceholder": {
@@ -23,13 +23,13 @@
     "message": "Medidores",
     "description": "Meters hint link"
   },
-  "homepage.hints.triggers": {
-    "message": "Disparadores",
-    "description": "Triggers hint link"
+  "homepage.hints.parts": {
+    "message": "Piezas y Suministros",
+    "description": "Parts & Supplies hint link"
   },
-  "homepage.hints.procedures": {
-    "message": "Procedimientos",
-    "description": "Procedures hint link"
+  "homepage.hints.dashboard": {
+    "message": "Panel de Control",
+    "description": "Dashboard hint link"
   },
   "homepage.categories.sectionLabel": {
     "message": "Documentación",
@@ -90,6 +90,46 @@
   "homepage.card.pm.desc": {
     "message": "Programa planes de mantenimiento preventivo (PM) para mantener los equipos funcionando a tiempo o en intervalos de uso.",
     "description": "Regular Maintenance card description"
+  },
+  "homepage.card.maintenance.title": {
+    "message": "Mantenimiento",
+    "description": "Maintenance card title"
+  },
+  "homepage.card.maintenance.desc": {
+    "message": "Órdenes de Trabajo, Solicitudes de Trabajo, Mantenimiento Regular, Plantillas de Procedimientos, Medidores y Disparadores — todo lo que tu equipo necesita para gestionar y automatizar las operaciones de mantenimiento.",
+    "description": "Maintenance card description"
+  },
+  "homepage.card.parts.title": {
+    "message": "Piezas y Suministros",
+    "description": "Parts & Supplies card title"
+  },
+  "homepage.card.parts.desc": {
+    "message": "Gestiona el inventario de piezas de repuesto, rastrea los niveles de stock y vincula el consumo de piezas a las órdenes de trabajo automáticamente.",
+    "description": "Parts & Supplies card description"
+  },
+  "homepage.card.procurement.title": {
+    "message": "Compras",
+    "description": "Procurement card title"
+  },
+  "homepage.card.procurement.desc": {
+    "message": "Crea órdenes de compra, rastrea proveedores y gestiona el ciclo de vida completo de adquisiciones para suministros de mantenimiento.",
+    "description": "Procurement card description"
+  },
+  "homepage.card.dashboard.title": {
+    "message": "Panel de Control",
+    "description": "Dashboard card title"
+  },
+  "homepage.card.dashboard.desc": {
+    "message": "Supervisa los KPI, rastrea las órdenes de trabajo abiertas y obtén visibilidad en tiempo real de tus operaciones de mantenimiento.",
+    "description": "Dashboard card description"
+  },
+  "homepage.card.assets.title": {
+    "message": "Activos",
+    "description": "Assets card title"
+  },
+  "homepage.card.assets.desc": {
+    "message": "Registra, organiza y supervisa todos tus equipos e instalaciones. Vincula órdenes de trabajo, medidores e historial de costos a cada activo.",
+    "description": "Assets card description"
   },
   "homepage.card.readGuide": {
     "message": "Leer guía",

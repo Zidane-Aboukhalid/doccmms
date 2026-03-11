@@ -11,6 +11,7 @@ const sidebars = {
       label: 'Maintenance',
       collapsed: false,
       items: [
+        { type: 'doc', id: 'maintenance/maintenance-about', label: 'About Maintenance 🔧' },
         // ── Meters ──────────────────────────────────────────────
         {
           type: 'category',
@@ -98,6 +99,17 @@ const sidebars = {
             { type: 'doc', id: 'maintenance/regular-maintenance/how-to-delete-a-pm-schedule' },
           ],
         },
+      ],
+    },
+    // ── FACILITY & ASSETS ─────────────────────────
+    {
+      type: 'category',
+      label: 'Facility & Assets',
+      collapsed: false,
+      items: [
+        { type: 'doc', id: 'assets/assets-about', label: 'About Assets 🏭' },
+        { type: 'doc', id: 'intro', label: 'Equipment 🚜' },
+        { type: 'doc', id: 'intro', label: 'Locations 📍' },
       ],
     },
   ],

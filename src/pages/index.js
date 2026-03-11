@@ -5,63 +5,85 @@ import Head from '@docusaurus/Head';
 import { translate } from '@docusaurus/Translate';
 
 /* ── Card color map ─────────────────────────────────────────── */
-const CARD_COLORS = ['#0ea5e9', '#f59e0b', '#46beb8', '#8b5cf6', '#ec4899', '#10b981'];
+const CARD_COLORS = [
+  '#0ea5e9', // blue
+  '#f59e0b', // amber
+  '#46beb8', // teal
+  '#8b5cf6', // purple
+  '#ec4899', // pink
+  '#10b981', // green
+  '#f97316', // orange
+  '#6366f1', // indigo
+  '#14b8a6', // cyan
+  '#e11d48', // rose
+];
 
-/* ── Categories (translated) ────────────────────────────────── */
+/* ────────────────────────────────────────────────────────────────
+   CATEGORIES — add any new module here as a new object.
+   Fields:
+     icon      → emoji shown on the card
+     titleId   → i18n key for the card title
+     titleMsg  → default English title (fallback)
+     descId    → i18n key for the card description
+     descMsg   → default English description (fallback)
+     href      → link to the module's landing / about page
+───────────────────────────────────────────────────────────────── */
 const CATEGORIES = [
+
+  /* ── MAINTENANCE ──────────────────────── */
   {
-    icon: '📊',
-    titleId: 'homepage.card.meters.title',
-    titleMsg: 'Meters',
-    descId: 'homepage.card.meters.desc',
+    icon: '🔧',
+    titleId: 'homepage.card.maintenance.title',
+    titleMsg: 'Maintenance',
+    descId: 'homepage.card.maintenance.desc',
     descMsg:
-      'Track physical conditions and operational metrics over time. Build a precise history of any monitored variable.',
-    href: '/docs/maintenance/meters/about',
+      'Work Orders, Work Requests, Regular Maintenance, Procedure Templates, Meters & Triggers — everything your team needs to manage and automate all maintenance operations.',
+    href: '/docs/maintenance',
   },
+
+
+  /* ── PARTS & SUPPLIES ────────────────── */
   {
-    icon: '⚡',
-    titleId: 'homepage.card.triggers.title',
-    titleMsg: 'Triggers',
-    descId: 'homepage.card.triggers.desc',
+    icon: '🔩',
+    titleId: 'homepage.card.parts.title',
+    titleMsg: 'Parts & Supplies',
+    descId: 'homepage.card.parts.desc',
     descMsg:
-      'Automate workflows with time-based or condition-based rules. Set thresholds and let the system act for you.',
-    href: '/docs/maintenance/triggers/about',
+      'Manage spare parts inventory, track stock levels, and link parts consumption to work orders automatically.',
+    href: '/docs/parts-and-supplies',
   },
+
+  /* ── PROCUREMENT ─────────────────────── */
   {
-    icon: '🛠️',
-    titleId: 'homepage.card.workorders.title',
-    titleMsg: 'Work Orders',
-    descId: 'homepage.card.workorders.desc',
+    icon: '🛒',
+    titleId: 'homepage.card.procurement.title',
+    titleMsg: 'Procurement',
+    descId: 'homepage.card.procurement.desc',
     descMsg:
-      'Create, assign, track and complete maintenance tasks. Full lifecycle management with cost tracking.',
-    href: '/docs/maintenance/work-orders/about',
+      'Create purchase orders, track vendors, and manage the full procurement lifecycle for maintenance supplies.',
+    href: '/docs/procurement',
   },
+
+  /* ── DASHBOARD ───────────────────────── */
   {
-    icon: '📩',
-    titleId: 'homepage.card.workrequests.title',
-    titleMsg: 'Work Requests',
-    descId: 'homepage.card.workrequests.desc',
+    icon: '📈',
+    titleId: 'homepage.card.dashboard.title',
+    titleMsg: 'Dashboard',
+    descId: 'homepage.card.dashboard.desc',
     descMsg:
-      'Allow team members and guests to submit tickets. Review, approve or decline before creating work orders.',
-    href: '/docs/maintenance/work-requests/about',
+      'Monitor KPIs, track open work orders, and gain real-time visibility into your maintenance operations.',
+    href: '/docs/dashboard',
   },
+
+  /* ── ASSETS ──────────────────────────── */
   {
-    icon: '📋',
-    titleId: 'homepage.card.procedures.title',
-    titleMsg: 'Procedure Templates',
-    descId: 'homepage.card.procedures.desc',
+    icon: '🏭',
+    titleId: 'homepage.card.assets.title',
+    titleMsg: 'Assets',
+    descId: 'homepage.card.assets.desc',
     descMsg:
-      'Build standardized SOPs and safety checklists with conditional logic. Attach to any work order.',
-    href: '/docs/maintenance/procedure-templates/about',
-  },
-  {
-    icon: '🔁',
-    titleId: 'homepage.card.pm.title',
-    titleMsg: 'Regular Maintenance',
-    descId: 'homepage.card.pm.desc',
-    descMsg:
-      'Schedule preventive maintenance (PM) plans to keep equipment running on time or usage intervals.',
-    href: '/docs/maintenance/regular-maintenance/about',
+      'Register, organize and monitor all your equipment and facilities. Link work orders, meters, and cost history to each asset.',
+    href: '/docs/assets',
   },
 ];
 
@@ -92,20 +114,26 @@ export default function Home() {
 
   const heroTitle = translate({
     id: 'homepage.hero.title',
-    message: 'Your Complete Maintenance Guide',
+    message: 'Your Complete UniCMMS Guide',
   });
   const heroSubtitle = translate({
     id: 'homepage.hero.subtitle',
     message:
-      'Everything your team needs to master UniCMMS — from creating your first work order to automating complex PM schedules.',
+      'Everything your team needs to master UniCMMS — from creating your first work order to automating complex PM schedules, managing inventory, and tracking procurement.',
   });
   const searchPlaceholder = translate({
     id: 'homepage.hero.searchPlaceholder',
     message: 'Search documentation… (e.g. "create work order")',
   });
   const popularLabel = translate({ id: 'homepage.hero.popular', message: 'Popular:' });
-  const sectionLabel = translate({ id: 'homepage.categories.sectionLabel', message: 'Documentation' });
-  const browseTitle = translate({ id: 'homepage.categories.title', message: 'Browse by Module' });
+  const sectionLabel = translate({
+    id: 'homepage.categories.sectionLabel',
+    message: 'Documentation',
+  });
+  const browseTitle = translate({
+    id: 'homepage.categories.title',
+    message: 'Browse by Module',
+  });
   const browseSubtitle = translate({
     id: 'homepage.categories.subtitle',
     message: 'Select a module to find detailed guides, field references, and best practices.',
@@ -120,16 +148,16 @@ export default function Home() {
   const ctaBtn = translate({ id: 'homepage.cta.button', message: 'Read the Introduction' });
   const workOrdersLabel = translate({ id: 'homepage.hints.workOrders', message: 'Work Orders' });
   const metersLabel = translate({ id: 'homepage.hints.meters', message: 'Meters' });
-  const triggersLabel = translate({ id: 'homepage.hints.triggers', message: 'Triggers' });
-  const proceduresLabel = translate({ id: 'homepage.hints.procedures', message: 'Procedures' });
+  const partsLabel = translate({ id: 'homepage.hints.parts', message: 'Parts & Supplies' });
+  const dashboardLabel = translate({ id: 'homepage.hints.dashboard', message: 'Dashboard' });
 
-  /* Highlight "Maintenance" in the English title */
-  const titleParts = heroTitle.split('Maintenance');
+  /* Highlight "UniCMMS" in the hero title */
+  const titleParts = heroTitle.split('UniCMMS');
 
   return (
     <Layout
       title="Help Center"
-      description="UniCMMS Help Center — step-by-step guides for work orders, assets, meters, triggers, and preventive maintenance."
+      description="UniCMMS Help Center — step-by-step guides for work orders, assets, meters, triggers, preventive maintenance, parts, procurement, and more."
     >
       <Head>
         <meta property="og:title" content="UniCMMS Help Center" />
@@ -155,7 +183,7 @@ export default function Home() {
             {titleParts.length > 1 ? (
               <>
                 {titleParts[0]}
-                <span className="hero-title-accent">Maintenance</span>
+                <span className="hero-title-accent">UniCMMS</span>
                 {titleParts[1]}
               </>
             ) : (
@@ -197,13 +225,13 @@ export default function Home() {
 
           <p className="hero-hints">
             {popularLabel}&nbsp;
-            <Link to="/docs/maintenance/work-orders">{workOrdersLabel}</Link>
+            <Link to="/docs/maintenance/work-orders/about">{workOrdersLabel}</Link>
             {' · '}
             <Link to="/docs/maintenance/meters/about">{metersLabel}</Link>
             {' · '}
-            <Link to="/docs/maintenance/triggers">{triggersLabel}</Link>
+            <Link to="/docs/parts-and-supplies">{partsLabel}</Link>
             {' · '}
-            <Link to="/docs/maintenance/procedure-templates">{proceduresLabel}</Link>
+            <Link to="/docs/dashboard">{dashboardLabel}</Link>
           </p>
         </div>
       </section>
@@ -217,7 +245,7 @@ export default function Home() {
         </div>
         <div id="doc-cards" className="cards-grid">
           {CATEGORIES.map((cat, i) => (
-            <DocCard key={cat.href} {...cat} color={CARD_COLORS[i]} />
+            <DocCard key={cat.href} {...cat} color={CARD_COLORS[i % CARD_COLORS.length]} />
           ))}
         </div>
       </section>

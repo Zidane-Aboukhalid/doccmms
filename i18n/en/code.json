@@ -1,10 +1,10 @@
 {
   "homepage.hero.title": {
-    "message": "Your Complete Maintenance Guide",
+    "message": "Your Complete UniCMMS Guide",
     "description": "Hero section main title"
   },
   "homepage.hero.subtitle": {
-    "message": "Everything your team needs to master UniCMMS — from creating your first work order to automating complex PM schedules.",
+    "message": "Everything your team needs to master UniCMMS — from creating your first work order to automating complex PM schedules, managing inventory, and tracking procurement.",
     "description": "Hero section subtitle"
   },
   "homepage.hero.searchPlaceholder": {
@@ -23,13 +23,13 @@
     "message": "Meters",
     "description": "Meters hint link"
   },
-  "homepage.hints.triggers": {
-    "message": "Triggers",
-    "description": "Triggers hint link"
+  "homepage.hints.parts": {
+    "message": "Parts & Supplies",
+    "description": "Parts & Supplies hint link"
   },
-  "homepage.hints.procedures": {
-    "message": "Procedures",
-    "description": "Procedures hint link"
+  "homepage.hints.dashboard": {
+    "message": "Dashboard",
+    "description": "Dashboard hint link"
   },
   "homepage.categories.sectionLabel": {
     "message": "Documentation",

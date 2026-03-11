@@ -1,10 +1,10 @@
 {
   "homepage.hero.title": {
-    "message": "دليلك الشامل للصيانة",
+    "message": "دليلك الشامل لـ UniCMMS",
     "description": "Hero section main title"
   },
   "homepage.hero.subtitle": {
-    "message": "كل ما يحتاجه فريقك لإتقان UniCMMS — من إنشاء أول أمر عمل إلى أتمتة جداول الصيانة الوقائية المعقدة.",
+    "message": "كل ما يحتاجه فريقك لإتقان UniCMMS — من إنشاء أول أمر عمل إلى أتمتة جداول الصيانة الوقائية المعقدة وإدارة المخزون وتتبع المشتريات.",
     "description": "Hero section subtitle"
   },
   "homepage.hero.searchPlaceholder": {
@@ -23,13 +23,13 @@
     "message": "العدادات",
     "description": "Meters hint link"
   },
-  "homepage.hints.triggers": {
-    "message": "المشغّلات",
-    "description": "Triggers hint link"
+  "homepage.hints.parts": {
+    "message": "قطع الغيار والمستلزمات",
+    "description": "Parts & Supplies hint link"
   },
-  "homepage.hints.procedures": {
-    "message": "الإجراءات",
-    "description": "Procedures hint link"
+  "homepage.hints.dashboard": {
+    "message": "لوحة التحكم",
+    "description": "Dashboard hint link"
   },
   "homepage.categories.sectionLabel": {
     "message": "التوثيق",
@@ -90,6 +90,46 @@
   "homepage.card.pm.desc": {
     "message": "جدولة خطط الصيانة الوقائية للحفاظ على تشغيل المعدات في الوقت المحدد أو وفق فترات الاستخدام.",
     "description": "Regular Maintenance card description"
+  },
+  "homepage.card.maintenance.title": {
+    "message": "الصيانة",
+    "description": "Maintenance card title"
+  },
+  "homepage.card.maintenance.desc": {
+    "message": "أوامر العمل، طلبات العمل، الصيانة الدورية، قوالب الإجراءات، العدادات والمشغّلات — كل ما يحتاجه فريقك لإدارة وأتمتة عمليات الصيانة.",
+    "description": "Maintenance card description"
+  },
+  "homepage.card.parts.title": {
+    "message": "قطع الغيار والمستلزمات",
+    "description": "Parts & Supplies card title"
+  },
+  "homepage.card.parts.desc": {
+    "message": "إدارة مخزون قطع الغيار وتتبع مستويات المخزون وربط استهلاك القطع بأوامر العمل تلقائياً.",
+    "description": "Parts & Supplies card description"
+  },
+  "homepage.card.procurement.title": {
+    "message": "المشتريات",
+    "description": "Procurement card title"
+  },
+  "homepage.card.procurement.desc": {
+    "message": "إنشاء أوامر الشراء وتتبع الموردين وإدارة دورة حياة المشتريات الكاملة لمستلزمات الصيانة.",
+    "description": "Procurement card description"
+  },
+  "homepage.card.dashboard.title": {
+    "message": "لوحة التحكم",
+    "description": "Dashboard card title"
+  },
+  "homepage.card.dashboard.desc": {
+    "message": "مراقبة مؤشرات الأداء الرئيسية وتتبع أوامر العمل المفتوحة والحصول على رؤية فورية لعمليات الصيانة.",
+    "description": "Dashboard card description"
+  },
+  "homepage.card.assets.title": {
+    "message": "الأصول",
+    "description": "Assets card title"
+  },
+  "homepage.card.assets.desc": {
+    "message": "تسجيل وتنظيم ومراقبة جميع معداتك ومرافقك. ربط أوامر العمل والعدادات وسجل التكاليف بكل أصل.",
+    "description": "Assets card description"
   },
   "homepage.card.readGuide": {
     "message": "اقرأ الدليل",

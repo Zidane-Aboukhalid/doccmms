@@ -11,25 +11,25 @@
     "message": "Compteurs",
     "description": "The label for category Meters in sidebar"
   },
-  "sidebar.mainSidebar.doc.maintenance/triggers": {
+  "sidebar.mainSidebar.category.Triggers": {
     "message": "Déclencheurs",
-    "description": "The label for doc triggers in sidebar"
+    "description": "The label for category Triggers in sidebar"
   },
-  "sidebar.mainSidebar.doc.maintenance/procedure-templates": {
+  "sidebar.mainSidebar.category.Procedure Templates": {
     "message": "Modèles de Procédures",
-    "description": "The label for doc procedure-templates in sidebar"
+    "description": "The label for category Procedure Templates in sidebar"
   },
-  "sidebar.mainSidebar.doc.maintenance/work-orders": {
-    "message": "Bons de Travail",
-    "description": "The label for doc work-orders in sidebar"
+  "sidebar.mainSidebar.category.Work Orders": {
+    "message": "Ordres de Travail",
+    "description": "The label for category Work Orders in sidebar"
   },
-  "sidebar.mainSidebar.doc.maintenance/work-requests": {
+  "sidebar.mainSidebar.category.Work Requests": {
     "message": "Demandes de Travail",
-    "description": "The label for doc work-requests in sidebar"
+    "description": "The label for category Work Requests in sidebar"
   },
-  "sidebar.mainSidebar.doc.maintenance/regular-maintenance": {
+  "sidebar.mainSidebar.category.Regular Maintenance (PM)": {
     "message": "Maintenance Régulière (PM)",
-    "description": "The label for doc regular-maintenance in sidebar"
+    "description": "The label for category Regular Maintenance in sidebar"
   },
   "sidebar.mainSidebar.doc.maintenance/meters/about": {
     "message": "À propos des Compteurs",
@@ -57,6 +57,138 @@
   },
   "sidebar.mainSidebar.doc.maintenance/meters/how-to-allow-backdated-meter-history-editing": {
     "message": "Autoriser la Modification Rétroactive",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/about": {
+    "message": "À propos des Déclencheurs",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-create-a-meter-trigger": {
+    "message": "Créer un Déclencheur de Compteur",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-duplicate-a-meter-trigger": {
+    "message": "Dupliquer un Déclencheur de Compteur",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-edit-a-meter-trigger": {
+    "message": "Modifier un Déclencheur de Compteur",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-delete-a-meter-trigger": {
+    "message": "Supprimer un Déclencheur de Compteur",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-create-a-time-trigger": {
+    "message": "Créer un Déclencheur Temporel",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-duplicate-a-time-trigger": {
+    "message": "Dupliquer un Déclencheur Temporel",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-edit-a-time-trigger": {
+    "message": "Modifier un Déclencheur Temporel",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-delete-a-time-trigger": {
+    "message": "Supprimer un Déclencheur Temporel",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/about": {
+    "message": "À propos des Modèles de Procédures",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-create-a-procedure-template": {
+    "message": "Créer un Modèle de Procédure",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-duplicate-a-procedure-template": {
+    "message": "Dupliquer un Modèle de Procédure",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-edit-a-procedure-template": {
+    "message": "Modifier un Modèle de Procédure",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-delete-a-procedure-template": {
+    "message": "Supprimer un Modèle de Procédure",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/about": {
+    "message": "À propos des Ordres de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-create-a-work-order": {
+    "message": "Créer un Ordre de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-duplicate-a-work-order": {
+    "message": "Dupliquer un Ordre de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-edit-a-work-order": {
+    "message": "Modifier un Ordre de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-delete-a-work-order": {
+    "message": "Supprimer un Ordre de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-change-work-order-status": {
+    "message": "Changer le Statut",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-add-a-procedure-to-a-work-order": {
+    "message": "Ajouter une Procédure",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-add-parts-and-supplies": {
+    "message": "Ajouter des Pièces et Fournitures",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-log-additional-costs": {
+    "message": "Enregistrer des Coûts Supplémentaires",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/about": {
+    "message": "À propos des Demandes de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-create-a-work-request": {
+    "message": "Créer une Demande de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-edit-a-work-request": {
+    "message": "Modifier une Demande de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-approve-a-work-request": {
+    "message": "Approuver une Demande de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-decline-a-work-request": {
+    "message": "Refuser une Demande de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-delete-a-work-request": {
+    "message": "Supprimer une Demande de Travail",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/about": {
+    "message": "À propos de la Maintenance Régulière",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-create-a-pm-schedule": {
+    "message": "Créer un Planning PM",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-edit-a-pm-schedule": {
+    "message": "Modifier un Planning PM",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-delete-a-pm-schedule": {
+    "message": "Supprimer un Planning PM",
     "description": "The label for doc in sidebar"
   }
 }

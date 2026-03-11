@@ -1,10 +1,10 @@
 {
   "homepage.hero.title": {
-    "message": "Votre Guide Complet de Maintenance",
+    "message": "Votre Guide Complet UniCMMS",
     "description": "Hero section main title"
   },
   "homepage.hero.subtitle": {
-    "message": "Tout ce dont votre équipe a besoin pour maîtriser UniCMMS — de la création de votre premier bon de travail à l'automatisation de plannings PM complexes.",
+    "message": "Tout ce dont votre équipe a besoin pour maîtriser UniCMMS — de la création de votre premier bon de travail à l'automatisation de plannings PM complexes, la gestion des stocks et le suivi des achats.",
     "description": "Hero section subtitle"
   },
   "homepage.hero.searchPlaceholder": {
@@ -23,13 +23,13 @@
     "message": "Compteurs",
     "description": "Meters hint link"
   },
-  "homepage.hints.triggers": {
-    "message": "Déclencheurs",
-    "description": "Triggers hint link"
+  "homepage.hints.parts": {
+    "message": "Pièces et Fournitures",
+    "description": "Parts & Supplies hint link"
   },
-  "homepage.hints.procedures": {
-    "message": "Procédures",
-    "description": "Procedures hint link"
+  "homepage.hints.dashboard": {
+    "message": "Tableau de Bord",
+    "description": "Dashboard hint link"
   },
   "homepage.categories.sectionLabel": {
     "message": "Documentation",
@@ -90,6 +90,46 @@
   "homepage.card.pm.desc": {
     "message": "Planifiez des plans de maintenance préventive (PM) pour maintenir les équipements en marche dans les délais ou les intervalles d'utilisation.",
     "description": "Regular Maintenance card description"
+  },
+  "homepage.card.maintenance.title": {
+    "message": "Maintenance",
+    "description": "Maintenance card title"
+  },
+  "homepage.card.maintenance.desc": {
+    "message": "Bons de Travail, Demandes de Travail, Maintenance Régulière, Modèles de Procédures, Compteurs et Déclencheurs — tout ce dont votre équipe a besoin pour gérer et automatiser toutes les opérations de maintenance.",
+    "description": "Maintenance card description"
+  },
+  "homepage.card.parts.title": {
+    "message": "Pièces et Fournitures",
+    "description": "Parts & Supplies card title"
+  },
+  "homepage.card.parts.desc": {
+    "message": "Gérez le stock de pièces détachées, suivez les niveaux de stock et liez automatiquement la consommation de pièces aux bons de travail.",
+    "description": "Parts & Supplies card description"
+  },
+  "homepage.card.procurement.title": {
+    "message": "Achats",
+    "description": "Procurement card title"
+  },
+  "homepage.card.procurement.desc": {
+    "message": "Créez des bons de commande, suivez les fournisseurs et gérez le cycle de vie complet des achats pour les fournitures de maintenance.",
+    "description": "Procurement card description"
+  },
+  "homepage.card.dashboard.title": {
+    "message": "Tableau de Bord",
+    "description": "Dashboard card title"
+  },
+  "homepage.card.dashboard.desc": {
+    "message": "Surveillez les KPI, suivez les bons de travail ouverts et obtenez une visibilité en temps réel sur vos opérations de maintenance.",
+    "description": "Dashboard card description"
+  },
+  "homepage.card.assets.title": {
+    "message": "Actifs",
+    "description": "Assets card title"
+  },
+  "homepage.card.assets.desc": {
+    "message": "Enregistrez, organisez et surveillez tous vos équipements et installations. Liez les bons de travail, les compteurs et l'historique des coûts à chaque actif.",
+    "description": "Assets card description"
   },
   "homepage.card.readGuide": {
     "message": "Lire le guide",

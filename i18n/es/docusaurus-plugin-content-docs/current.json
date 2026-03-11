@@ -11,25 +11,25 @@
     "message": "Medidores",
     "description": "The label for category Meters in sidebar"
   },
-  "sidebar.mainSidebar.doc.maintenance/triggers": {
+  "sidebar.mainSidebar.category.Triggers": {
     "message": "Disparadores",
-    "description": "The label for doc triggers in sidebar"
+    "description": "The label for category Triggers in sidebar"
   },
-  "sidebar.mainSidebar.doc.maintenance/procedure-templates": {
+  "sidebar.mainSidebar.category.Procedure Templates": {
     "message": "Plantillas de Procedimientos",
-    "description": "The label for doc procedure-templates in sidebar"
+    "description": "The label for category Procedure Templates in sidebar"
   },
-  "sidebar.mainSidebar.doc.maintenance/work-orders": {
+  "sidebar.mainSidebar.category.Work Orders": {
     "message": "Órdenes de Trabajo",
-    "description": "The label for doc work-orders in sidebar"
+    "description": "The label for category Work Orders in sidebar"
   },
-  "sidebar.mainSidebar.doc.maintenance/work-requests": {
+  "sidebar.mainSidebar.category.Work Requests": {
     "message": "Solicitudes de Trabajo",
-    "description": "The label for doc work-requests in sidebar"
+    "description": "The label for category Work Requests in sidebar"
   },
-  "sidebar.mainSidebar.doc.maintenance/regular-maintenance": {
+  "sidebar.mainSidebar.category.Regular Maintenance (PM)": {
     "message": "Mantenimiento Regular (PM)",
-    "description": "The label for doc regular-maintenance in sidebar"
+    "description": "The label for category Regular Maintenance in sidebar"
   },
   "sidebar.mainSidebar.doc.maintenance/meters/about": {
     "message": "Acerca de los Medidores",
@@ -44,7 +44,7 @@
     "description": "The label for doc in sidebar"
   },
   "sidebar.mainSidebar.doc.maintenance/meters/how-to-update-a-meter": {
-    "message": "Actualizar un Medidor",
+    "message": "Editar un Medidor",
     "description": "The label for doc in sidebar"
   },
   "sidebar.mainSidebar.doc.maintenance/meters/how-to-delete-a-meter": {
@@ -57,6 +57,138 @@
   },
   "sidebar.mainSidebar.doc.maintenance/meters/how-to-allow-backdated-meter-history-editing": {
     "message": "Permitir Edición Retroactiva",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/about": {
+    "message": "Acerca de los Disparadores",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-create-a-meter-trigger": {
+    "message": "Crear un Disparador de Medidor",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-duplicate-a-meter-trigger": {
+    "message": "Duplicar un Disparador de Medidor",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-edit-a-meter-trigger": {
+    "message": "Editar un Disparador de Medidor",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-delete-a-meter-trigger": {
+    "message": "Eliminar un Disparador de Medidor",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-create-a-time-trigger": {
+    "message": "Crear un Disparador Temporal",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-duplicate-a-time-trigger": {
+    "message": "Duplicar un Disparador Temporal",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-edit-a-time-trigger": {
+    "message": "Editar un Disparador Temporal",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/triggers/how-to-delete-a-time-trigger": {
+    "message": "Eliminar un Disparador Temporal",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/about": {
+    "message": "Acerca de las Plantillas",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-create-a-procedure-template": {
+    "message": "Crear una Plantilla",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-duplicate-a-procedure-template": {
+    "message": "Duplicar una Plantilla",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-edit-a-procedure-template": {
+    "message": "Editar una Plantilla",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/procedure-templates/how-to-delete-a-procedure-template": {
+    "message": "Eliminar una Plantilla",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/about": {
+    "message": "Acerca de las Órdenes de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-create-a-work-order": {
+    "message": "Crear una Orden de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-duplicate-a-work-order": {
+    "message": "Duplicar una Orden de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-edit-a-work-order": {
+    "message": "Editar una Orden de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-delete-a-work-order": {
+    "message": "Eliminar una Orden de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-change-work-order-status": {
+    "message": "Cambiar el Estado",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-add-a-procedure-to-a-work-order": {
+    "message": "Añadir un Procedimiento",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-add-parts-and-supplies": {
+    "message": "Añadir Piezas y Suministros",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-orders/how-to-log-additional-costs": {
+    "message": "Registrar Costes Adicionales",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/about": {
+    "message": "Acerca de las Solicitudes de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-create-a-work-request": {
+    "message": "Crear una Solicitud de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-edit-a-work-request": {
+    "message": "Editar una Solicitud de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-approve-a-work-request": {
+    "message": "Aprobar una Solicitud de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-decline-a-work-request": {
+    "message": "Rechazar una Solicitud de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/work-requests/how-to-delete-a-work-request": {
+    "message": "Eliminar una Solicitud de Trabajo",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/about": {
+    "message": "Acerca del Mantenimiento Regular",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-create-a-pm-schedule": {
+    "message": "Crear un Programa PM",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-edit-a-pm-schedule": {
+    "message": "Editar un Programa PM",
+    "description": "The label for doc in sidebar"
+  },
+  "sidebar.mainSidebar.doc.maintenance/regular-maintenance/how-to-delete-a-pm-schedule": {
+    "message": "Eliminar un Programa PM",
     "description": "The label for doc in sidebar"
   }
 }

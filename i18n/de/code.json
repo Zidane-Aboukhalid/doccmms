@@ -1,10 +1,10 @@
 {
   "homepage.hero.title": {
-    "message": "Ihr vollständiger Wartungsleitfaden",
+    "message": "Ihr vollständiger UniCMMS-Leitfaden",
     "description": "Hero section main title"
   },
   "homepage.hero.subtitle": {
-    "message": "Alles, was Ihr Team braucht, um UniCMMS zu meistern — von der Erstellung Ihres ersten Arbeitsauftrags bis zur Automatisierung komplexer PM-Pläne.",
+    "message": "Alles, was Ihr Team braucht, um UniCMMS zu meistern — von der Erstellung Ihres ersten Arbeitsauftrags bis zur Automatisierung komplexer PM-Pläne, Bestandsverwaltung und Beschaffungsverfolgung.",
     "description": "Hero section subtitle"
   },
   "homepage.hero.searchPlaceholder": {
@@ -23,13 +23,13 @@
     "message": "Zähler",
     "description": "Meters hint link"
   },
-  "homepage.hints.triggers": {
-    "message": "Auslöser",
-    "description": "Triggers hint link"
+  "homepage.hints.parts": {
+    "message": "Teile und Zubehör",
+    "description": "Parts & Supplies hint link"
   },
-  "homepage.hints.procedures": {
-    "message": "Verfahren",
-    "description": "Procedures hint link"
+  "homepage.hints.dashboard": {
+    "message": "Dashboard",
+    "description": "Dashboard hint link"
   },
   "homepage.categories.sectionLabel": {
     "message": "Dokumentation",
@@ -90,6 +90,46 @@
   "homepage.card.pm.desc": {
     "message": "Planen Sie vorbeugende Wartungspläne (PM), um Geräte pünktlich oder in Nutzungsintervallen am Laufen zu halten.",
     "description": "Regular Maintenance card description"
+  },
+  "homepage.card.maintenance.title": {
+    "message": "Wartung",
+    "description": "Maintenance card title"
+  },
+  "homepage.card.maintenance.desc": {
+    "message": "Arbeitsaufträge, Arbeitsanforderungen, Regelmäßige Wartung, Verfahrensvorlagen, Zähler und Auslöser — alles, was Ihr Team zur Verwaltung und Automatisierung aller Wartungsoperationen benötigt.",
+    "description": "Maintenance card description"
+  },
+  "homepage.card.parts.title": {
+    "message": "Teile und Zubehör",
+    "description": "Parts & Supplies card title"
+  },
+  "homepage.card.parts.desc": {
+    "message": "Verwalten Sie Ersatzteilbestände, verfolgen Sie Lagerstände und verknüpfen Sie den Teileverbrauch automatisch mit Arbeitsaufträgen.",
+    "description": "Parts & Supplies card description"
+  },
+  "homepage.card.procurement.title": {
+    "message": "Beschaffung",
+    "description": "Procurement card title"
+  },
+  "homepage.card.procurement.desc": {
+    "message": "Erstellen Sie Bestellungen, verfolgen Sie Lieferanten und verwalten Sie den vollständigen Beschaffungslebenszyklus für Wartungsverbrauchsmaterial.",
+    "description": "Procurement card description"
+  },
+  "homepage.card.dashboard.title": {
+    "message": "Dashboard",
+    "description": "Dashboard card title"
+  },
+  "homepage.card.dashboard.desc": {
+    "message": "Behalten Sie KPIs im Blick, verfolgen Sie offene Arbeitsaufträge und gewinnen Sie Echtzeitsichtbarkeit in Ihre Wartungsoperationen.",
+    "description": "Dashboard card description"
+  },
+  "homepage.card.assets.title": {
+    "message": "Anlagen",
+    "description": "Assets card title"
+  },
+  "homepage.card.assets.desc": {
+    "message": "Registrieren, organisieren und überwachen Sie alle Ihre Geräte und Einrichtungen. Verknüpfen Sie Arbeitsaufträge, Zähler und Kostenverlauf mit jeder Anlage.",
+    "description": "Assets card description"
   },
   "homepage.card.readGuide": {
     "message": "Anleitung lesen",
