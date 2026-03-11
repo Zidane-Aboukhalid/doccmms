@@ -1,34 +1,34 @@
 {
   "homepage.hero.title": {
-    "message": "Your Complete Maintenance Guide",
+    "message": "Votre Guide Complet de Maintenance",
     "description": "Hero section main title"
   },
   "homepage.hero.subtitle": {
-    "message": "Everything your team needs to master UniCMMS — from creating your first work order to automating complex PM schedules.",
+    "message": "Tout ce dont votre équipe a besoin pour maîtriser UniCMMS — de la création de votre premier bon de travail à l'automatisation de plannings PM complexes.",
     "description": "Hero section subtitle"
   },
   "homepage.hero.searchPlaceholder": {
-    "message": "Search documentation… (e.g. \"create work order\")",
+    "message": "Rechercher dans la documentation… (ex. : \"créer un bon de travail\")",
     "description": "Hero search input placeholder"
   },
   "homepage.hero.popular": {
-    "message": "Popular:",
+    "message": "Populaire :",
     "description": "Popular label in hero hints"
   },
   "homepage.hints.workOrders": {
-    "message": "Work Orders",
+    "message": "Bons de Travail",
     "description": "Work Orders hint link"
   },
   "homepage.hints.meters": {
-    "message": "Meters",
+    "message": "Compteurs",
     "description": "Meters hint link"
   },
   "homepage.hints.triggers": {
-    "message": "Triggers",
+    "message": "Déclencheurs",
     "description": "Triggers hint link"
   },
   "homepage.hints.procedures": {
-    "message": "Procedures",
+    "message": "Procédures",
     "description": "Procedures hint link"
   },
   "homepage.categories.sectionLabel": {
@@ -36,79 +36,79 @@
     "description": "Categories section label"
   },
   "homepage.categories.title": {
-    "message": "Browse by Module",
+    "message": "Parcourir par Module",
     "description": "Categories section title"
   },
   "homepage.categories.subtitle": {
-    "message": "Select a module to find detailed guides, field references, and best practices.",
+    "message": "Sélectionnez un module pour trouver des guides détaillés, des références de champs et les meilleures pratiques.",
     "description": "Categories section subtitle"
   },
   "homepage.card.meters.title": {
-    "message": "Meters",
+    "message": "Compteurs",
     "description": "Meters card title"
   },
   "homepage.card.meters.desc": {
-    "message": "Track physical conditions and operational metrics over time. Build a precise history of any monitored variable.",
+    "message": "Suivez les conditions physiques et les métriques opérationnelles dans le temps. Construisez un historique précis de toute variable surveillée.",
     "description": "Meters card description"
   },
   "homepage.card.triggers.title": {
-    "message": "Triggers",
+    "message": "Déclencheurs",
     "description": "Triggers card title"
   },
   "homepage.card.triggers.desc": {
-    "message": "Automate workflows with time-based or condition-based rules. Set thresholds and let the system act for you.",
+    "message": "Automatisez les workflows avec des règles basées sur le temps ou les conditions. Définissez des seuils et laissez le système agir pour vous.",
     "description": "Triggers card description"
   },
   "homepage.card.workorders.title": {
-    "message": "Work Orders",
+    "message": "Bons de Travail",
     "description": "Work Orders card title"
   },
   "homepage.card.workorders.desc": {
-    "message": "Create, assign, track and complete maintenance tasks. Full lifecycle management with cost tracking.",
+    "message": "Créez, assignez, suivez et complétez les tâches de maintenance. Gestion complète du cycle de vie avec suivi des coûts.",
     "description": "Work Orders card description"
   },
   "homepage.card.workrequests.title": {
-    "message": "Work Requests",
+    "message": "Demandes de Travail",
     "description": "Work Requests card title"
   },
   "homepage.card.workrequests.desc": {
-    "message": "Allow team members and guests to submit tickets. Review, approve or decline before creating work orders.",
+    "message": "Permettez aux membres de l'équipe et aux invités de soumettre des tickets. Examinez, approuvez ou refusez avant de créer des bons de travail.",
     "description": "Work Requests card description"
   },
   "homepage.card.procedures.title": {
-    "message": "Procedure Templates",
+    "message": "Modèles de Procédures",
     "description": "Procedure Templates card title"
   },
   "homepage.card.procedures.desc": {
-    "message": "Build standardized SOPs and safety checklists with conditional logic. Attach to any work order.",
+    "message": "Construisez des SOP standardisées et des listes de contrôle de sécurité avec une logique conditionnelle. Attachez à n'importe quel bon de travail.",
     "description": "Procedure Templates card description"
   },
   "homepage.card.pm.title": {
-    "message": "Regular Maintenance",
+    "message": "Maintenance Régulière",
     "description": "Regular Maintenance card title"
   },
   "homepage.card.pm.desc": {
-    "message": "Schedule preventive maintenance (PM) plans to keep equipment running on time or usage intervals.",
+    "message": "Planifiez des plans de maintenance préventive (PM) pour maintenir les équipements en marche dans les délais ou les intervalles d'utilisation.",
     "description": "Regular Maintenance card description"
   },
   "homepage.card.readGuide": {
-    "message": "Read guide",
+    "message": "Lire le guide",
     "description": "Card read guide link text"
   },
   "homepage.cta.sectionLabel": {
-    "message": "Get Started",
+    "message": "Commencer",
     "description": "CTA section label"
   },
   "homepage.cta.title": {
-    "message": "New to UniCMMS?",
+    "message": "Nouveau sur UniCMMS ?",
     "description": "CTA section title"
   },
   "homepage.cta.subtitle": {
-    "message": "Start with the introduction to understand the platform's core concepts before diving into specific modules.",
+    "message": "Commencez par l'introduction pour comprendre les concepts fondamentaux de la plateforme avant de plonger dans des modules spécifiques.",
     "description": "CTA section subtitle"
   },
   "homepage.cta.button": {
-    "message": "Read the Introduction",
+    "message": "Lire l'Introduction",
     "description": "CTA button text"
   }
 }

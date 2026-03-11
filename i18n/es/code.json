@@ -1,14 +1,14 @@
 {
   "homepage.hero.title": {
-    "message": "Your Complete Maintenance Guide",
+    "message": "Tu Guía Completa de Mantenimiento",
     "description": "Hero section main title"
   },
   "homepage.hero.subtitle": {
-    "message": "Everything your team needs to master UniCMMS — from creating your first work order to automating complex PM schedules.",
+    "message": "Todo lo que tu equipo necesita para dominar UniCMMS — desde crear tu primera orden de trabajo hasta automatizar programas de PM complejos.",
     "description": "Hero section subtitle"
   },
   "homepage.hero.searchPlaceholder": {
-    "message": "Search documentation… (e.g. \"create work order\")",
+    "message": "Buscar en la documentación… (ej. \"crear orden de trabajo\")",
     "description": "Hero search input placeholder"
   },
   "homepage.hero.popular": {
@@ -16,99 +16,99 @@
     "description": "Popular label in hero hints"
   },
   "homepage.hints.workOrders": {
-    "message": "Work Orders",
+    "message": "Órdenes de Trabajo",
     "description": "Work Orders hint link"
   },
   "homepage.hints.meters": {
-    "message": "Meters",
+    "message": "Medidores",
     "description": "Meters hint link"
   },
   "homepage.hints.triggers": {
-    "message": "Triggers",
+    "message": "Disparadores",
     "description": "Triggers hint link"
   },
   "homepage.hints.procedures": {
-    "message": "Procedures",
+    "message": "Procedimientos",
     "description": "Procedures hint link"
   },
   "homepage.categories.sectionLabel": {
-    "message": "Documentation",
+    "message": "Documentación",
     "description": "Categories section label"
   },
   "homepage.categories.title": {
-    "message": "Browse by Module",
+    "message": "Explorar por Módulo",
     "description": "Categories section title"
   },
   "homepage.categories.subtitle": {
-    "message": "Select a module to find detailed guides, field references, and best practices.",
+    "message": "Selecciona un módulo para encontrar guías detalladas, referencias de campos y mejores prácticas.",
     "description": "Categories section subtitle"
   },
   "homepage.card.meters.title": {
-    "message": "Meters",
+    "message": "Medidores",
     "description": "Meters card title"
   },
   "homepage.card.meters.desc": {
-    "message": "Track physical conditions and operational metrics over time. Build a precise history of any monitored variable.",
+    "message": "Rastrea condiciones físicas y métricas operativas a lo largo del tiempo. Construye un historial preciso de cualquier variable monitoreada.",
     "description": "Meters card description"
   },
   "homepage.card.triggers.title": {
-    "message": "Triggers",
+    "message": "Disparadores",
     "description": "Triggers card title"
   },
   "homepage.card.triggers.desc": {
-    "message": "Automate workflows with time-based or condition-based rules. Set thresholds and let the system act for you.",
+    "message": "Automatiza flujos de trabajo con reglas basadas en tiempo o condiciones. Establece umbrales y deja que el sistema actúe por ti.",
     "description": "Triggers card description"
   },
   "homepage.card.workorders.title": {
-    "message": "Work Orders",
+    "message": "Órdenes de Trabajo",
     "description": "Work Orders card title"
   },
   "homepage.card.workorders.desc": {
-    "message": "Create, assign, track and complete maintenance tasks. Full lifecycle management with cost tracking.",
+    "message": "Crea, asigna, rastrea y completa tareas de mantenimiento. Gestión completa del ciclo de vida con seguimiento de costos.",
     "description": "Work Orders card description"
   },
   "homepage.card.workrequests.title": {
-    "message": "Work Requests",
+    "message": "Solicitudes de Trabajo",
     "description": "Work Requests card title"
   },
   "homepage.card.workrequests.desc": {
-    "message": "Allow team members and guests to submit tickets. Review, approve or decline before creating work orders.",
+    "message": "Permite que los miembros del equipo y los invitados envíen tickets. Revisa, aprueba o rechaza antes de crear órdenes de trabajo.",
     "description": "Work Requests card description"
   },
   "homepage.card.procedures.title": {
-    "message": "Procedure Templates",
+    "message": "Plantillas de Procedimientos",
     "description": "Procedure Templates card title"
   },
   "homepage.card.procedures.desc": {
-    "message": "Build standardized SOPs and safety checklists with conditional logic. Attach to any work order.",
+    "message": "Construye SOPs estandarizados y listas de verificación de seguridad con lógica condicional. Adjunta a cualquier orden de trabajo.",
     "description": "Procedure Templates card description"
   },
   "homepage.card.pm.title": {
-    "message": "Regular Maintenance",
+    "message": "Mantenimiento Regular",
     "description": "Regular Maintenance card title"
   },
   "homepage.card.pm.desc": {
-    "message": "Schedule preventive maintenance (PM) plans to keep equipment running on time or usage intervals.",
+    "message": "Programa planes de mantenimiento preventivo (PM) para mantener los equipos funcionando a tiempo o en intervalos de uso.",
     "description": "Regular Maintenance card description"
   },
   "homepage.card.readGuide": {
-    "message": "Read guide",
+    "message": "Leer guía",
     "description": "Card read guide link text"
   },
   "homepage.cta.sectionLabel": {
-    "message": "Get Started",
+    "message": "Comenzar",
     "description": "CTA section label"
   },
   "homepage.cta.title": {
-    "message": "New to UniCMMS?",
+    "message": "¿Nuevo en UniCMMS?",
     "description": "CTA section title"
   },
   "homepage.cta.subtitle": {
-    "message": "Start with the introduction to understand the platform's core concepts before diving into specific modules.",
+    "message": "Comienza con la introducción para entender los conceptos fundamentales de la plataforma antes de profundizar en módulos específicos.",
     "description": "CTA section subtitle"
   },
   "homepage.cta.button": {
-    "message": "Read the Introduction",
+    "message": "Leer la Introducción",
     "description": "CTA button text"
   }
 }

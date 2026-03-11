@@ -1,0 +1,114 @@
+{
+  "homepage.hero.title": {
+    "message": "دليلك الشامل للصيانة",
+    "description": "Hero section main title"
+  },
+  "homepage.hero.subtitle": {
+    "message": "كل ما يحتاجه فريقك لإتقان UniCMMS — من إنشاء أول أمر عمل إلى أتمتة جداول الصيانة الوقائية المعقدة.",
+    "description": "Hero section subtitle"
+  },
+  "homepage.hero.searchPlaceholder": {
+    "message": "ابحث في التوثيق… (مثال: \"إنشاء أمر عمل\")",
+    "description": "Hero search input placeholder"
+  },
+  "homepage.hero.popular": {
+    "message": "الأكثر بحثاً:",
+    "description": "Popular label in hero hints"
+  },
+  "homepage.hints.workOrders": {
+    "message": "أوامر العمل",
+    "description": "Work Orders hint link"
+  },
+  "homepage.hints.meters": {
+    "message": "العدادات",
+    "description": "Meters hint link"
+  },
+  "homepage.hints.triggers": {
+    "message": "المشغّلات",
+    "description": "Triggers hint link"
+  },
+  "homepage.hints.procedures": {
+    "message": "الإجراءات",
+    "description": "Procedures hint link"
+  },
+  "homepage.categories.sectionLabel": {
+    "message": "التوثيق",
+    "description": "Categories section label"
+  },
+  "homepage.categories.title": {
+    "message": "تصفح حسب الوحدة",
+    "description": "Categories section title"
+  },
+  "homepage.categories.subtitle": {
+    "message": "اختر وحدة للعثور على أدلة تفصيلية ومراجع الحقول وأفضل الممارسات.",
+    "description": "Categories section subtitle"
+  },
+  "homepage.card.meters.title": {
+    "message": "العدادات",
+    "description": "Meters card title"
+  },
+  "homepage.card.meters.desc": {
+    "message": "تتبع الحالات الفيزيائية والمقاييس التشغيلية بمرور الوقت. بناء سجل دقيق لأي متغير مُراقَب.",
+    "description": "Meters card description"
+  },
+  "homepage.card.triggers.title": {
+    "message": "المشغّلات",
+    "description": "Triggers card title"
+  },
+  "homepage.card.triggers.desc": {
+    "message": "أتمتة سير العمل بقواعد زمنية أو مبنية على الشروط. حدد العتبات ودع النظام يتصرف نيابةً عنك.",
+    "description": "Triggers card description"
+  },
+  "homepage.card.workorders.title": {
+    "message": "أوامر العمل",
+    "description": "Work Orders card title"
+  },
+  "homepage.card.workorders.desc": {
+    "message": "إنشاء وتعيين وتتبع وإتمام مهام الصيانة. إدارة دورة حياة كاملة مع تتبع التكاليف.",
+    "description": "Work Orders card description"
+  },
+  "homepage.card.workrequests.title": {
+    "message": "طلبات العمل",
+    "description": "Work Requests card title"
+  },
+  "homepage.card.workrequests.desc": {
+    "message": "السماح لأعضاء الفريق والضيوف بتقديم التذاكر. مراجعة وقبول أو رفض التذاكر قبل إنشاء أوامر العمل.",
+    "description": "Work Requests card description"
+  },
+  "homepage.card.procedures.title": {
+    "message": "قوالب الإجراءات",
+    "description": "Procedure Templates card title"
+  },
+  "homepage.card.procedures.desc": {
+    "message": "بناء إجراءات تشغيل موحدة وقوائم فحص الأمان بمنطق شرطي. أرفقها بأي أمر عمل.",
+    "description": "Procedure Templates card description"
+  },
+  "homepage.card.pm.title": {
+    "message": "الصيانة الدورية",
+    "description": "Regular Maintenance card title"
+  },
+  "homepage.card.pm.desc": {
+    "message": "جدولة خطط الصيانة الوقائية للحفاظ على تشغيل المعدات في الوقت المحدد أو وفق فترات الاستخدام.",
+    "description": "Regular Maintenance card description"
+  },
+  "homepage.card.readGuide": {
+    "message": "اقرأ الدليل",
+    "description": "Card read guide link text"
+  },
+  "homepage.cta.sectionLabel": {
+    "message": "ابدأ الآن",
+    "description": "CTA section label"
+  },
+  "homepage.cta.title": {
+    "message": "جديد على UniCMMS؟",
+    "description": "CTA section title"
+  },
+  "homepage.cta.subtitle": {
+    "message": "ابدأ بالمقدمة لفهم المفاهيم الأساسية للمنصة قبل التعمق في الوحدات المحددة.",
+    "description": "CTA section subtitle"
+  },
+  "homepage.cta.button": {
+    "message": "اقرأ المقدمة",
+    "description": "CTA button text"
+  }
+}

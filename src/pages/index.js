@@ -2,81 +2,129 @@ import React, { useRef } from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
-import { useHistory } from '@docusaurus/router';
+import { translate } from '@docusaurus/Translate';
 
+/* ── Card color map ─────────────────────────────────────────── */
+const CARD_COLORS = ['#0ea5e9', '#f59e0b', '#46beb8', '#8b5cf6', '#ec4899', '#10b981'];
+
+/* ── Categories (translated) ────────────────────────────────── */
 const CATEGORIES = [
   {
     icon: '📊',
-    title: 'Meters',
-    desc: 'Track physical conditions and operational metrics over time. Build a precise history of any monitored variable.',
+    titleId: 'homepage.card.meters.title',
+    titleMsg: 'Meters',
+    descId: 'homepage.card.meters.desc',
+    descMsg:
+      'Track physical conditions and operational metrics over time. Build a precise history of any monitored variable.',
     href: '/docs/maintenance/meters/about',
   },
   {
     icon: '⚡',
-    title: 'Triggers',
-    desc: 'Automate workflows with time-based or condition-based rules. Set thresholds and let the system act for you.',
+    titleId: 'homepage.card.triggers.title',
+    titleMsg: 'Triggers',
+    descId: 'homepage.card.triggers.desc',
+    descMsg:
+      'Automate workflows with time-based or condition-based rules. Set thresholds and let the system act for you.',
     href: '/docs/maintenance/triggers',
   },
   {
     icon: '🛠️',
-    title: 'Work Orders',
-    desc: 'Create, assign, track and complete maintenance tasks. Full lifecycle management with cost tracking.',
+    titleId: 'homepage.card.workorders.title',
+    titleMsg: 'Work Orders',
+    descId: 'homepage.card.workorders.desc',
+    descMsg:
+      'Create, assign, track and complete maintenance tasks. Full lifecycle management with cost tracking.',
     href: '/docs/maintenance/work-orders',
   },
   {
     icon: '📩',
-    title: 'Work Requests',
-    desc: 'Allow team members and guests to submit tickets. Review, approve or decline before creating work orders.',
+    titleId: 'homepage.card.workrequests.title',
+    titleMsg: 'Work Requests',
+    descId: 'homepage.card.workrequests.desc',
+    descMsg:
+      'Allow team members and guests to submit tickets. Review, approve or decline before creating work orders.',
     href: '/docs/maintenance/work-requests',
   },
   {
     icon: '📋',
-    title: 'Procedure Templates',
-    desc: 'Build standardized SOPs and safety checklists with conditional logic. Attach to any work order.',
+    titleId: 'homepage.card.procedures.title',
+    titleMsg: 'Procedure Templates',
+    descId: 'homepage.card.procedures.desc',
+    descMsg:
+      'Build standardized SOPs and safety checklists with conditional logic. Attach to any work order.',
     href: '/docs/maintenance/procedure-templates',
   },
   {
     icon: '🔁',
-    title: 'Regular Maintenance',
-    desc: 'Schedule preventive maintenance (PM) plans to keep equipment running on time or usage intervals.',
+    titleId: 'homepage.card.pm.title',
+    titleMsg: 'Regular Maintenance',
+    descId: 'homepage.card.pm.desc',
+    descMsg:
+      'Schedule preventive maintenance (PM) plans to keep equipment running on time or usage intervals.',
     href: '/docs/maintenance/regular-maintenance',
   },
 ];
 
-function DocCard({ icon, title, desc, href }) {
+function DocCard({ icon, titleId, titleMsg, descId, descMsg, href, color }) {
+  const title = translate({ id: titleId, message: titleMsg });
+  const desc = translate({ id: descId, message: descMsg });
+  const readGuide = translate({ id: 'homepage.card.readGuide', message: 'Read guide' });
+
   return (
-    <Link to={href} className="doc-card">
-      <div className="card-icon-wrap">{icon}</div>
-      <p className="card-title">{title}</p>
-      <p className="card-desc">{desc}</p>
-      <span className="card-arrow">Read guide →</span>
+    <Link to={href} className="doc-card" style={{ '--card-accent': color }}>
+      <div className="card-icon-wrap" style={{ background: `${color}18` }}>
+        <span className="card-icon-emoji">{icon}</span>
+      </div>
+      <div className="card-body">
+        <p className="card-title">{title}</p>
+        <p className="card-desc">{desc}</p>
+      </div>
+      <span className="card-arrow">
+        <span className="card-arrow-text">{readGuide}</span>
+        <span className="card-arrow-icon">→</span>
+      </span>
     </Link>
   );
 }
 
 export default function Home() {
-  const history = useHistory();
   const searchRef = useRef(null);
 
-  function handleSearch(e) {
-    e.preventDefault();
-    const q = searchRef.current?.value?.trim();
-    if (!q) return;
+  const heroTitle = translate({
+    id: 'homepage.hero.title',
+    message: 'Your Complete Maintenance Guide',
+  });
+  const heroSubtitle = translate({
+    id: 'homepage.hero.subtitle',
+    message:
+      'Everything your team needs to master UniCMMS — from creating your first work order to automating complex PM schedules.',
+  });
+  const searchPlaceholder = translate({
+    id: 'homepage.hero.searchPlaceholder',
+    message: 'Search documentation… (e.g. "create work order")',
+  });
+  const popularLabel = translate({ id: 'homepage.hero.popular', message: 'Popular:' });
+  const sectionLabel = translate({ id: 'homepage.categories.sectionLabel', message: 'Documentation' });
+  const browseTitle = translate({ id: 'homepage.categories.title', message: 'Browse by Module' });
+  const browseSubtitle = translate({
+    id: 'homepage.categories.subtitle',
+    message: 'Select a module to find detailed guides, field references, and best practices.',
+  });
+  const ctaSectionLabel = translate({ id: 'homepage.cta.sectionLabel', message: 'Get Started' });
+  const ctaTitle = translate({ id: 'homepage.cta.title', message: 'New to UniCMMS?' });
+  const ctaSubtitle = translate({
+    id: 'homepage.cta.subtitle',
+    message:
+      "Start with the introduction to understand the platform's core concepts before diving into specific modules.",
+  });
+  const ctaBtn = translate({ id: 'homepage.cta.button', message: 'Read the Introduction' });
+  const workOrdersLabel = translate({ id: 'homepage.hints.workOrders', message: 'Work Orders' });
+  const metersLabel = translate({ id: 'homepage.hints.meters', message: 'Meters' });
+  const triggersLabel = translate({ id: 'homepage.hints.triggers', message: 'Triggers' });
+  const proceduresLabel = translate({ id: 'homepage.hints.procedures', message: 'Procedures' });
 
-    // Find the global search input in the navbar
-    const navbarSearchInput = document.querySelector('.navbar__search-input');
-    if (navbarSearchInput) {
-      navbarSearchInput.focus();
-      // Set value and trigger events
-      const nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
-      nativeInputValueSetter.call(navbarSearchInput, q);
-      
-      // Trigger multiple events to satisfy different plugin listeners
-      navbarSearchInput.dispatchEvent(new Event('input', { bubbles: true }));
-      navbarSearchInput.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
-      navbarSearchInput.dispatchEvent(new KeyboardEvent('keyup', { key: 'Enter', bubbles: true }));
-    }
-  }
+  /* Highlight "Maintenance" in the English title */
+  const titleParts = heroTitle.split('Maintenance');
 
   return (
     <Layout
@@ -85,11 +133,18 @@ export default function Home() {
     >
       <Head>
         <meta property="og:title" content="UniCMMS Help Center" />
-        <meta property="og:description" content="Complete documentation for UniCMMS — your cloud-based CMMS for maintenance teams." />
+        <meta
+          property="og:description"
+          content="Complete documentation for UniCMMS — your cloud-based CMMS for maintenance teams."
+        />
       </Head>
 
-      {/* ── Hero ─────────────────────────────────────────── */}
+      {/* ── Hero ──────────────────────────────────────────────── */}
       <section className="hero-section">
+        <div className="hero-glow hero-glow-1" />
+        <div className="hero-glow hero-glow-2" />
+        <div className="hero-glow hero-glow-3" />
+
         <div className="hero-inner">
           <div className="hero-badge">
             <span className="hero-badge-dot" />
@@ -97,12 +152,18 @@ export default function Home() {
           </div>
 
           <h1 className="hero-title">
-            Your Complete<br /><span>Maintenance</span> Guide
+            {titleParts.length > 1 ? (
+              <>
+                {titleParts[0]}
+                <span className="hero-title-accent">Maintenance</span>
+                {titleParts[1]}
+              </>
+            ) : (
+              <span className="hero-title-accent">{heroTitle}</span>
+            )}
           </h1>
 
-          <p className="hero-subtitle">
-            Everything your team needs to master UniCMMS — from creating your first work order to automating complex PM schedules.
-          </p>
+          <p className="hero-subtitle">{heroSubtitle}</p>
 
           <div className="hero-search-wrap">
             <form className="hero-search" onSubmit={(e) => e.preventDefault()}>
@@ -110,21 +171,22 @@ export default function Home() {
               <input
                 ref={searchRef}
                 type="text"
-                placeholder={'Search documentation\u2026 (e.g. \u201ccreate work order\u201d)'}
+                placeholder={searchPlaceholder}
                 aria-label="Search documentation"
                 id="hero-search-input"
                 onChange={(e) => {
                   const val = e.target.value;
-                  const navbarSearchInput = document.querySelector('.navbar__search-input');
-                  if (navbarSearchInput) {
-                    // This trick forces the value even if React is controlling it
-                    const nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
-                    nativeInputValueSetter.call(navbarSearchInput, val);
-                    navbarSearchInput.dispatchEvent(new Event('input', { bubbles: true }));
+                  const navbarInput = document.querySelector('.navbar__search-input');
+                  if (navbarInput) {
+                    const setter = Object.getOwnPropertyDescriptor(
+                      window.HTMLInputElement.prototype,
+                      'value'
+                    ).set;
+                    setter.call(navbarInput, val);
+                    navbarInput.dispatchEvent(new Event('input', { bubbles: true }));
                   }
                 }}
                 onFocus={() => {
-                  // Pre-focus the hidden one to ensure the modal is ready
                   document.querySelector('.navbar__search-input')?.focus();
                   searchRef.current?.focus();
                 }}
@@ -134,67 +196,44 @@ export default function Home() {
           </div>
 
           <p className="hero-hints">
-            Popular:&nbsp;
-            <Link to="/docs/maintenance/work-orders">Work Orders</Link>
+            {popularLabel}&nbsp;
+            <Link to="/docs/maintenance/work-orders">{workOrdersLabel}</Link>
             {' · '}
-            <Link to="/docs/maintenance/meters/about">Meters</Link>
+            <Link to="/docs/maintenance/meters/about">{metersLabel}</Link>
             {' · '}
-            <Link to="/docs/maintenance/triggers">Triggers</Link>
+            <Link to="/docs/maintenance/triggers">{triggersLabel}</Link>
             {' · '}
-            <Link to="/docs/maintenance/procedure-templates">Procedures</Link>
+            <Link to="/docs/maintenance/procedure-templates">{proceduresLabel}</Link>
           </p>
         </div>
       </section>
 
-      {/* ── Stats ───────────────────────────────────────────
-      <section className="stats-band">
-        <div className="stats-inner">
-          <div className="stat-item">
-            <span className="stat-number">6<span className="stat-unit">+</span></span>
-            <span className="stat-label">Core Modules</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-number">5</span>
-            <span className="stat-label">Languages</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-number">50<span className="stat-unit">+</span></span>
-            <span className="stat-label">Step-by-Step Guides</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-number">24<span className="stat-unit">/7</span></span>
-            <span className="stat-label">Always Available</span>
-          </div>
-        </div>
-      </section> */}
-
-      {/* ── Categories ────────────────────────────────────── */}
+      {/* ── Categories ──────────────────────────────────────────── */}
       <section className="categories-section">
         <div className="categories-header">
-          <div className="section-label">Documentation</div>
-          <h2>Browse by Module</h2>
-          <p>Select a module to find detailed guides, field references, and best practices.</p>
+          <div className="section-label">{sectionLabel}</div>
+          <h2>{browseTitle}</h2>
+          <p>{browseSubtitle}</p>
         </div>
         <div id="doc-cards" className="cards-grid">
-          {CATEGORIES.map((cat) => (
-            <DocCard key={cat.href} {...cat} />
+          {CATEGORIES.map((cat, i) => (
+            <DocCard key={cat.href} {...cat} color={CARD_COLORS[i]} />
           ))}
         </div>
       </section>
 
-      {/* ── CTA Banner ────────────────────────────────────── */}
+      {/* ── CTA ─────────────────────────────────────────────────── */}
       <section className="cta-section">
+        <div className="cta-glow" />
         <div className="cta-inner">
-          <div className="section-label" style={{marginBottom: 16}}>
-            Get Started
+          <div className="section-label" style={{ marginBottom: 16 }}>
+            {ctaSectionLabel}
           </div>
-          <h2>New to UniCMMS?</h2>
-          <p>
-            Start with the introduction to understand the platform's core concepts before diving into specific modules.
-          </p>
+          <h2>{ctaTitle}</h2>
+          <p>{ctaSubtitle}</p>
           <Link to="/docs/intro" className="cta-btn" id="cta-get-started">
             <span>👋</span>
-            Read the Introduction
+            {ctaBtn}
             <span>→</span>
           </Link>
         </div>

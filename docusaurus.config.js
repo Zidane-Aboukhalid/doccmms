@@ -102,7 +102,7 @@ const config = {
       navbar: {
         title: 'UniCMMS',
         logo: {
-          alt: 'UniCMMS Help Center',
+          alt: 'UniCMMS',
           src: 'img/logo.svg',
           srcDark: 'img/logo-dark.svg',
           width: 36,
