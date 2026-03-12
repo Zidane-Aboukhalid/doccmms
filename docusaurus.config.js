@@ -62,7 +62,10 @@ const config = {
         },
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/tailwind.css'),
+          ],
         },
         sitemap: {
           changefreq: 'weekly',
@@ -75,6 +78,16 @@ const config = {
   ],
 
   plugins: [
+    function tailwindPlugin(context, options) {
+      return {
+        name: 'tailwind-plugin',
+        configurePostCss(postcssOptions) {
+          postcssOptions.plugins.push(require('tailwindcss'));
+          postcssOptions.plugins.push(require('autoprefixer'));
+          return postcssOptions;
+        },
+      };
+    },
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
@@ -117,10 +130,20 @@ const config = {
         },
         items: [
           {
+            to: '/help-center',
+            label: 'Help Center',
+            position: 'left',
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'mainSidebar',
             position: 'left',
             label: 'Documentation',
+          }, 
+          {
+            to: '/features',
+            label: 'Features',
+            position: 'left',
           },
           {
             type: 'localeDropdown',

@@ -1,0 +1,86 @@
+{
+  "homepage.title": {
+    "message": "Portal de Recursos"
+  },
+  "homepage.description": {
+    "message": "Portal de recursos UniCMMS y soporte profesional"
+  },
+  "homepage.hero.portalLabel": {
+    "message": "Portal de Soporte y Recursos"
+  },
+  "homepage.hero.title": {
+    "message": "¿Cómo podemos {helpPart} hoy?"
+  },
+  "homepage.hero.title.helpPart": {
+    "message": "ayudarte"
+  },
+  "homepage.hero.subtitle": {
+    "message": "Explore nuestro centro de recursos integral. Desde guías técnicas detalladas hasta soporte en tiempo real, todo lo que necesita está a un solo clic."
+  },
+  "homepage.resources.gettingStarted.title": {
+    "message": "Primeros Pasos"
+  },
+  "homepage.resources.gettingStarted.desc": {
+    "message": "Lance UniCMMS en minutos con nuestra guía de inicio rápido."
+  },
+  "homepage.resources.faq.title": {
+    "message": "Preguntas Frecuentes"
+  },
+  "homepage.resources.faq.desc": {
+    "message": "Encuentre respuestas rápidas a las preguntas más frecuentes."
+  },
+  "homepage.resources.security.title": {
+    "message": "Seguridad"
+  },
+  "homepage.resources.security.desc": {
+    "message": "Conozca nuestra protección y cumplimiento de nivel empresarial."
+  },
+  "homepage.resources.helpCenter.title": {
+    "message": "Centro de Ayuda"
+  },
+  "homepage.resources.helpCenter.desc": {
+    "message": "Sumérjase en nuestra documentación completa para todos los módulos."
+  },
+  "homepage.resources.blog.title": {
+    "message": "Últimos Blogs"
+  },
+  "homepage.resources.blog.desc": {
+    "message": "Perspectivas, tendencias y mejores prácticas de mantenimiento."
+  },
+  "homepage.resources.support.title": {
+    "message": "Equipo de Soporte"
+  },
+  "homepage.resources.support.desc": {
+    "message": "¿Necesita más ayuda? Hable directamente con nuestro equipo de expertos."
+  },
+  "homepage.resources.video.title": {
+    "message": "Entrenamiento en Video"
+  },
+  "homepage.resources.video.desc": {
+    "message": "Tutoriales visuales paso a paso para cada función."
+  },
+  "homepage.resources.releases.title": {
+    "message": "Lanzamientos"
+  },
+  "homepage.resources.releases.desc": {
+    "message": "Manténgase actualizado con nuestras últimas funciones y mejoras."
+  },
+  "homepage.resources.ai.title": {
+    "message": "Asistencia IA"
+  },
+  "homepage.resources.ai.desc": {
+    "message": "Aproveche la IA inteligente para optimizar su flujo de mantenimiento."
+  },
+  "homepage.cta.title": {
+    "message": "¿No encuentra lo que busca?"
+  },
+  "homepage.cta.subtitle": {
+    "message": "Nuestros expertos están listos para ayudarlo a optimizar su experiencia UniCMMS. Contáctenos en cualquier momento."
+  },
+  "homepage.cta.contact": {
+    "message": "Contactar Soporte"
+  },
+  "homepage.cta.app": {
+    "message": "Abrir Aplicación"
+  }
+}

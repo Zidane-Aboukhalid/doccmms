@@ -137,17 +137,6 @@ h3 {
   color: #fff !important;
 }
 
-.navbar__brand::after {
-  content: 'Help Center';
-  font-family: var(--ifm-font-family-base);
-  font-weight: 500;
-  font-size: 0.78rem;
-  color: var(--brand-green);
-  border-left: 1px solid rgba(70, 190, 184, 0.3);
-  padding-left: 10px;
-  letter-spacing: 0;
-}
-
 .navbar__link {
   font-weight: 500;
   font-size: 0.9rem;
@@ -1237,4 +1226,8 @@ body:has(#hero-search-input:not(:placeholder-shown)) .algolia-autocomplete .ds-d
 
 .search-local-modal .search-result-item:hover {
   background-color: rgba(70, 190, 184, 0.05) !important;
-}
+}  
+/* -- Premium UI Enhance -- */  
+@keyframes fadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }  
+.animate-fade-in { animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }  
+body { background-color: #fafbfc; } 

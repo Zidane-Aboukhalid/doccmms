@@ -1,0 +1,86 @@
+{
+  "homepage.title": {
+    "message": "بوابة الموارد"
+  },
+  "homepage.description": {
+    "message": "بوابة موارد UniCMMS والدعم الاحترافي"
+  },
+  "homepage.hero.portalLabel": {
+    "message": "بوابة الدعم والموارد"
+  },
+  "homepage.hero.title": {
+    "message": "كيف يمكننا {helpPart} اليوم؟"
+  },
+  "homepage.hero.title.helpPart": {
+    "message": "مساعدتك"
+  },
+  "homepage.hero.subtitle": {
+    "message": "استكشف مركز الموارد الشامل الخاص بنا. من الأدلة التقنية المفصلة إلى الدعم في الوقت الفعلي، كل ما تحتاجه هو مجرد نقرة واحدة."
+  },
+  "homepage.resources.gettingStarted.title": {
+    "message": "البدء"
+  },
+  "homepage.resources.gettingStarted.desc": {
+    "message": "قم بتشغيل UniCMMS في دقائق مع دليل البدء السريع الخاص بنا."
+  },
+  "homepage.resources.faq.title": {
+    "message": "الأسئلة الشائعة"
+  },
+  "homepage.resources.faq.desc": {
+    "message": "ابحث عن إجابات سريعة للأسئلة الأكثر شيوعاً."
+  },
+  "homepage.resources.security.title": {
+    "message": "الأمان"
+  },
+  "homepage.resources.security.desc": {
+    "message": "تعرف على حمايتنا وتوافقنا من الدرجة المؤسسية."
+  },
+  "homepage.resources.helpCenter.title": {
+    "message": "مركز المساعدة"
+  },
+  "homepage.resources.helpCenter.desc": {
+    "message": "انغمس في وثائقنا الكاملة لجميع الوحدات."
+  },
+  "homepage.resources.blog.title": {
+    "message": "آخر المدونات"
+  },
+  "homepage.resources.blog.desc": {
+    "message": "رؤى واتجاهات وأفضل ممارسات الصيانة."
+  },
+  "homepage.resources.support.title": {
+    "message": "فريق الدعم"
+  },
+  "homepage.resources.support.desc": {
+    "message": "هل تحتاج إلى مزيد من المساعدة؟ تحدث مباشرة مع فريق الدعم الخبير لدينا."
+  },
+  "homepage.resources.video.title": {
+    "message": "التدريب بالفيديو"
+  },
+  "homepage.resources.video.desc": {
+    "message": "دروس مرئية خطوة بخطوة لكل ميزة."
+  },
+  "homepage.resources.releases.title": {
+    "message": "الإصدارات"
+  },
+  "homepage.resources.releases.desc": {
+    "message": "ابق على اطلاع بآخر ميزاتنا وتحسيناتنا."
+  },
+  "homepage.resources.ai.title": {
+    "message": "المساعدة بالذكاء الاصطناعي"
+  },
+  "homepage.resources.ai.desc": {
+    "message": "استفد من الذكاء الاصطناعي الذكي لتحسين تدفق الصيانة الخاص بك."
+  },
+  "homepage.cta.title": {
+    "message": "لم تجد ما تبحث عنه؟"
+  },
+  "homepage.cta.subtitle": {
+    "message": "خبراؤنا جاهزون لمساعدتك في تحسين تجربة UniCMMS الخاصة بك. تواصل معنا في أي وقت."
+  },
+  "homepage.cta.contact": {
+    "message": "اتصل بالدعم"
+  },
+  "homepage.cta.app": {
+    "message": "فتح التطبيق"
+  }
+}

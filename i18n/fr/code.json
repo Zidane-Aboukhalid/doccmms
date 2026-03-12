@@ -1,11 +1,87 @@
 {
+  "homepage.title": {
+    "message": "Portail de Ressources"
+  },
+  "homepage.description": {
+    "message": "Portail de ressources UniCMMS et support professionnel"
+  },
+  "homepage.hero.portalLabel": {
+    "message": "Portail de Support et Ressources"
+  },
   "homepage.hero.title": {
-    "message": "Votre Guide Complet UniCMMS",
-    "description": "Hero section main title"
+    "message": "Comment pouvons-nous {helpPart} aujourd'hui ?"
+  },
+  "homepage.hero.title.helpPart": {
+    "message": "vous aider"
   },
   "homepage.hero.subtitle": {
-    "message": "Tout ce dont votre équipe a besoin pour maîtriser UniCMMS — de la création de votre premier bon de travail à l'automatisation de plannings PM complexes, la gestion des stocks et le suivi des achats.",
-    "description": "Hero section subtitle"
+    "message": "Explorez notre centre de ressources complet. Des guides techniques détaillés au support en temps réel, tout ce dont vous avez besoin est à portée de clic."
+  },
+  "homepage.resources.gettingStarted.title": {
+    "message": "Démarrage"
+  },
+  "homepage.resources.gettingStarted.desc": {
+    "message": "Lancez UniCMMS en quelques minutes avec notre guide de démarrage rapide."
+  },
+  "homepage.resources.faq.title": {
+    "message": "FAQ Commune"
+  },
+  "homepage.resources.faq.desc": {
+    "message": "Trouvez des réponses rapides aux questions les plus fréquemment posées."
+  },
+  "homepage.resources.security.title": {
+    "message": "Sécurité"
+  },
+  "homepage.resources.security.desc": {
+    "message": "Découvrez notre protection et notre conformité de niveau entreprise."
+  },
+  "homepage.resources.helpCenter.title": {
+    "message": "Centre d'Aide"
+  },
+  "homepage.resources.helpCenter.desc": {
+    "message": "Plongez dans notre documentation complète pour tous les modules."
+  },
+  "homepage.resources.blog.title": {
+    "message": "Derniers Blogs"
+  },
+  "homepage.resources.blog.desc": {
+    "message": "Aperçus, tendances et meilleures pratiques de maintenance."
+  },
+  "homepage.resources.support.title": {
+    "message": "Équipe de Support"
+  },
+  "homepage.resources.support.desc": {
+    "message": "Besoin d'aide ? Parlez directement à notre équipe d'experts."
+  },
+  "homepage.resources.video.title": {
+    "message": "Formation Vidéo"
+  },
+  "homepage.resources.video.desc": {
+    "message": "Tutoriels visuels étape par étape pour chaque fonctionnalité."
+  },
+  "homepage.resources.releases.title": {
+    "message": "Mises à jour"
+  },
+  "homepage.resources.releases.desc": {
+    "message": "Restez informé de nos dernières fonctionnalités et améliorations."
+  },
+  "homepage.resources.ai.title": {
+    "message": "Assistance IA"
+  },
+  "homepage.resources.ai.desc": {
+    "message": "Utilisez l'IA intelligente pour optimiser votre flux de maintenance."
+  },
+  "homepage.cta.title": {
+    "message": "Vous ne trouvez pas ce que vous cherchez ?"
+  },
+  "homepage.cta.subtitle": {
+    "message": "Nos experts sont prêts à vous aider à optimiser votre expérience UniCMMS. Contactez-nous à tout moment."
+  },
+  "homepage.cta.contact": {
+    "message": "Contacter le Support"
+  },
+  "homepage.cta.app": {
+    "message": "Ouvrir l'Application"
   },
   "homepage.hero.searchPlaceholder": {
     "message": "Rechercher dans la documentation… (ex. : \"créer un bon de travail\")",
@@ -134,18 +210,6 @@
   "homepage.card.readGuide": {
     "message": "Lire le guide",
     "description": "Card read guide link text"
-  },
-  "homepage.cta.sectionLabel": {
-    "message": "Commencer",
-    "description": "CTA section label"
-  },
-  "homepage.cta.title": {
-    "message": "Nouveau sur UniCMMS ?",
-    "description": "CTA section title"
-  },
-  "homepage.cta.subtitle": {
-    "message": "Commencez par l'introduction pour comprendre les concepts fondamentaux de la plateforme avant de plonger dans des modules spécifiques.",
-    "description": "CTA section subtitle"
   },
   "homepage.cta.button": {
     "message": "Lire l'Introduction",
