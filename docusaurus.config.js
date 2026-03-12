@@ -58,7 +58,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Zidane-Aboukhalid/doccmms/tree/main/',
+          // editUrl: 'https://github.com/Zidane-Aboukhalid/doccmms/tree/main/',
         },
         blog: false,
         theme: {

@@ -111,19 +111,19 @@ const sidebars = {
           type: 'category',
           label: 'Assets',
           items: [
-            { type: 'doc', id: 'assets/about' },
-            { type: 'doc', id: 'assets/how-to-create-an-asset' },
-            { type: 'doc', id: 'assets/how-to-edit-or-delete' },
-            { type: 'doc', id: 'assets/asset-management-features' },
+            { type: 'doc', id: 'Facility & Assets/assets/about' },
+            { type: 'doc', id: 'Facility & Assets/assets/how-to-create-an-asset' },
+            { type: 'doc', id: 'Facility & Assets/assets/how-to-edit-or-delete' },
+            { type: 'doc', id: 'Facility & Assets/assets/asset-management-features' },
           ],
         },
         {
           type: 'category',
           label: 'Facilities',
           items: [
-            { type: 'doc', id: 'facility/how-to-create-a-facility' },
-            { type: 'doc', id: 'facility/how-to-edit-a-facility', },
-            { type: 'doc', id: 'facility/how-to-delete-a-facility', },
+            { type: 'doc', id: 'Facility & Assets/facility/how-to-create-a-facility' },
+            { type: 'doc', id: 'Facility & Assets/facility/how-to-edit-a-facility', },
+            { type: 'doc', id: 'Facility & Assets/facility/how-to-delete-a-facility', },
           ],
         },
         {
@@ -131,8 +131,8 @@ const sidebars = {
           label: 'Hierarchy',
           items: [
 
-            { type: 'doc', id: 'hierarchy/understanding-hierarchy' },
-            { type: 'doc', id: 'hierarchy/how-to-build-from-hierarchy' },
+            { type: 'doc', id: 'Facility & Assets/hierarchy/understanding-hierarchy' },
+            { type: 'doc', id: 'Facility & Assets/hierarchy/how-to-build-from-hierarchy' },
           ],
         },
       ],
